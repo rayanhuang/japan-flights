@@ -156,64 +156,59 @@
 
 <header>
   <h1>✈️ 日本機票監控</h1>
-  <div class="sub">最後更新：2026-11-13（週五）18:00 台北時間（新增名古屋與其他熱門機場：熊本、廣島、鹿兒島、仙台）</div>
+  <div class="sub">最後更新：2026-11-13（週五）19:05 台北時間（條件更新：玩 4～6 天、最多請 4 天、回程 12:00 後起飛，每個目的地列前三名，已全部重查）</div>
   <div class="chips">
-    <span class="chip">桃園出發</span>
-    <span class="chip">東京・大阪・名古屋・福岡・沖繩・北海道</span>
-    <span class="chip">另附熊本・廣島・鹿兒島・仙台</span>
-    <span class="chip">來回 5 天</span>
+    <span class="chip">桃園出發（松山、高雄附帶）</span>
+    <span class="chip">東京・大阪・福岡・沖繩・北海道</span>
+    <span class="chip">玩 4～6 天</span>
+    <span class="chip">最多請 4 天・見紅就休</span>
+    <span class="chip">回程日本 12:00 後起飛</span>
+    <span class="chip">每條航線前三名</span>
     <span class="chip">出發日 2027/2/13 – 2027/11/13</span>
     <span class="chip">含託運行李 20kg</span>
-    <span class="chip">最多請假 3 天・見紅就休</span>
-    <span class="chip">時段不限（可接受紅眼）</span>
+    <span class="chip">去程時段不限（可紅眼）</span>
   </div>
 </header>
 
 <div class="card" data-tab="overview">
-  <div class="take">💬 今天重點：新增名古屋，最便宜是華航 8/25–8/29 NT$14,483（請 3 天）；其他熱門機場中熊本華航 6/6–6/10 NT$12,282 最便宜。其餘目的地 17:40 再複查價格沒變，東京虎航 4/24–4/28 仍約 10,750 最便宜；沖繩華航 13:17 的 5/20–5/24 11,328 已不見，現在最低 5/21–5/25 11,631；北海道星宇函館 3/18–3/22 16,673 也不見了，改列札幌華航 6/6–6/10 20,847。大阪華航端午 6/9–6/13 15,169 只請 2 天。國泰 CXITF500 今晚截止、Trip.com 星宇大阪 8,999 到明天；華航、長榮旅展到 11/21、星宇到 11/23。</div>
-  <p class="small" style="margin:10px 0 0">⚠️ 華航、星宇價格取自官網低價頁（過去 48 小時其他旅客查到的價格，17:20 讀取、17:40 複查沖繩與東京同價）；長榮沿用 13:17 讀取的價格；虎航是 KAYAK 頁面（過去 72 小時查到）。官網沒寫是否含稅、票種是否含託運行李。都是查詢時價格，實際以訂票頁為準。</p>
+  <div class="take">💬 今天重點：條件放寬到玩 4～6 天、最多請 4 天以後，沖繩最便宜：樂桃 2/13–2/18 約 NT$7,490（含行李估，回程 13:35 起飛）。大阪亞洲航空 3/3–3/8 約 10,600、福岡亞洲航空 3/1–3/5 約 11,904（都是 KAYAK 價，行李費是估的）。東京華航 6/17–6/22 14,894、北海道星宇 4/16–4/19 20,666 只請 2 天。虎航羽田線回程都是清晨起飛，已從推薦中移除。長榮旅展 11/15 截止，華航到 11/21，星宇到 11/23。</div>
+  <p class="small" style="margin:10px 0 0">⚠️ 華航、星宇、全日空價格取自官網低價頁（過去 48 小時其他旅客查到的價格，未指定班次；表中回程寫的是那條航線 12:00 後的班次，實際票價可能不同）。沖繩樂桃、虎航、華航 2/13–2/18 是 Google Flights 指定班次的即時價格。亞洲航空是 KAYAK 頁面（過去 72 小時）。班表多為 2026 冬季或 ekitan 推估的 2027 夏季班表，訂票前請再確認。都是查詢時價格，實際以訂票頁為準。</p>
 </div>
 
 <div class="card" data-tab="prices">
-  <h2>🏆 各目的地今日最便宜（含行李）</h2>
-  <p class="small" style="margin-top:0">只列符合「5 天行程、請假 ≤3 天」的實際日期票價。華航、長榮、星宇、日航經濟艙一般含託運行李，但最低票種不一定含，請在訂票頁確認。廉航價格已加上來回 20kg 行李費（估算）。</p>
+  <h2>🏆 各目的地前三名優惠（含行李）</h2>
+  <p class="small" style="margin-top:0">只列符合「玩 4～6 天、請假 ≤4 天、回程日本 12:00 後起飛、含託運行李」的實際日期票價，依含行李總價由低到高（同價時請假少的優先）。華航、長榮、星宇、全日空經濟艙一般含託運行李，但最低票種不一定含，請在訂票頁確認。廉航價格已加上來回 20kg 行李費（估算）。</p>
   <!-- 版面：三個 class="rt" 表格的每個 td 都要有 data-label（欄名），手機上會變成卡片；本表目的地格 class="dest"、航空格 class="air"、總價格 class="num total"；標題列 class="hd"；每日紀錄的日期格 class="date"。不要用 rowspan/colspan。 -->
   <div class="scroll">
   <table class="rt rt-best">
-    <tr class="hd"><th>目的地</th><th>航空</th><th>出發～回程</th><th>請假</th><th>去回班次時間</th><th>票價</th><th>行李費</th><th>含行李總價</th><th>備註</th></tr>
-    <tr><td class="dest"><b>東京</b></td><td class="air"><span class="tag t-lcc">台灣虎航</span></td><td data-label="日期">2027/4/24（六）～4/28（三）</td><td data-label="請假">請 3 天<br>4/26、4/27、4/28</td><td data-label="班次">去 00:10→04:25 桃園→羽田<br>回 05:25→08:00 羽田→桃園</td><td class="num" data-label="票價">8,851</td><td data-label="行李費">約 1,900（估）</td><td class="num total" data-label="含行李總價">≈ NT$10,750</td><td data-label="備註">紅眼去程，可玩較完整 5 天；回程要清晨出發。KAYAK 頁面（過去 72 小時查到），17:20 仍顯示同價；行李費以 20kg 約 950/段估算</td></tr>
-    <tr><td class="dest"><b>東京</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/18（五）～6/22（二）</td><td data-label="請假">請 3 天<br>6/18、6/21、6/22</td><td data-label="班次">未公布</td><td class="num" data-label="票價">14,909</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$14,909</td><td data-label="備註">桃園－成田，官網低價頁（1 天前查到）。13:17 的 5/22–5/26 14,893 已不見。5/15（六）–5/19（三）、6/3（四）–6/7（一）15,097；松山－羽田 4/22（四）–4/26（一）15,546；長榮 5/28（五）–6/1（二）16,357（13:17）</td></tr>
-    <tr><td class="dest"><b>沖繩</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/5/21（五）～5/25（二）</td><td data-label="請假">請 3 天<br>5/21、5/24、5/25</td><td data-label="班次">未公布</td><td class="num" data-label="票價">11,631</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$11,631</td><td data-label="備註">官網低價頁（1 天前查到）。5/14（五）–5/18（二）、5/22（六）–5/26（三）、6/16（三）–6/20（日）同價。13:17 看到的 5/20–5/24 11,328 這次已沒出現；長榮 5/12（三）–5/16（日）11,975（13:17）</td></tr>
-    <tr><td class="dest"><b>福岡</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/6（日）～6/10（四）</td><td data-label="請假">請 3 天<br>6/7、6/8、6/10</td><td data-label="班次">未公布</td><td class="num" data-label="票價">13,223</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$13,223</td><td data-label="備註">含端午 6/9，官網低價頁（1 天前查到）。6/4（五）–6/8（二）13,286；長榮 5/28（五）–6/1（二）、6/17（四）–6/21（一）14,160（13:17）</td></tr>
-    <tr><td class="dest"><b>大阪</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/9（三）～6/13（日）</td><td data-label="請假"><span class="tag t-best">請 2 天</span><br>6/10、6/11</td><td data-label="班次">未公布</td><td class="num" data-label="票價">15,169</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$15,169</td><td data-label="備註">端午連假（1 天前查到）。6/5（六）–6/9（三）也只請 2 天，但現在是 15,416；5/14（五）–5/18（二）15,169 請 3 天；6/8（二）–6/12（六）15,432。長榮 5/28–6/1 關西 15,790（13:17）</td></tr>
-    <tr><td class="dest"><b>名古屋</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/8/25（三）～8/29（日）</td><td data-label="請假">請 3 天<br>8/25、8/26、8/27</td><td data-label="班次">未公布</td><td class="num" data-label="票價">14,483</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$14,483</td><td data-label="備註">桃園－中部國際（NGO），官網低價頁（過去 48 小時查到，18:00 讀取）。5–6 月 13,118 起但都不是符合請假規則的 5 天日期。星宇 2–3 月 13,980 起、虎航 KAYAK 9,372 起（都不是 5 天，見參考價）</td></tr>
-    <tr><td class="dest"><b>北海道</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/6（日）～6/10（四）</td><td data-label="請假">請 3 天<br>6/7、6/8、6/10</td><td data-label="班次">未公布</td><td class="num" data-label="票價">20,847</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$20,847</td><td data-label="備註">桃園－札幌（1 天前查到）；5/26（三）–5/30（日）20,864。星宇函館 13:17 查到的 3/18–3/22 16,673 這次已沒出現，函館目前 1–4 月 16,676 起（參考價，無 5 天日期）</td></tr>
+    <tr class="hd"><th>目的地</th><th>航空</th><th>出發～回程</th><th>天數</th><th>請假</th><th>去回班次時間</th><th>票價</th><th>行李費</th><th>含行李總價</th><th>備註</th></tr>
+    <tr><td class="dest"><b>東京</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 1 名</td><td data-label="日期">2027/6/17（四）～6/22（二）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>6/17、6/18、6/21、6/22</td><td data-label="班次">去 CI100 09:30→13:30 桃園→成田<br>回 CI101 14:35→17:45 成田→桃園（另有 CI105 17:45、CI109 19:30）</td><td class="num" data-label="票價">14,894</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$14,894</td><td data-label="備註">華航官網低價頁（5 小時前查到），未指定班次；成田回程只有 CI107 09:20 是早上，其餘都在 12:00 後</td></tr>
+    <tr><td class="dest"><b>東京</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 2 名</td><td data-label="日期">2027/5/18（二）～5/22（六）</td><td data-label="天數">5 天</td><td data-label="請假">請 4 天<br>5/18、5/19、5/20、5/21</td><td data-label="班次">去 CI100 09:30→13:30<br>回 CI101 14:35→17:45（或 CI105、CI109）</td><td class="num" data-label="票價">14,894</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$14,894</td><td data-label="備註">華航官網低價頁（3 小時前）。同價但請 3 天的有：6/18（五）–6/22（二）14,909</td></tr>
+    <tr><td class="dest"><b>東京</b></td><td class="air"><span class="tag t-fsc">星宇航空</span> 第 3 名</td><td data-label="日期">2027/4/24（六）～4/28（三）</td><td data-label="天數">5 天</td><td data-label="請假">請 3 天<br>4/26、4/27、4/28</td><td data-label="班次">去 JX800 08:25→12:35 桃園→成田<br>回 JX801 13:45→16:50（另有 JX803 15:40、JX805 20:10）</td><td class="num" data-label="票價">14,908</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$14,908</td><td data-label="備註">星宇官網低價頁（9 小時前）。星宇成田回程全部在 12:00 後。3/4–3/9、2/18–2/23（各請 4 天）同價</td></tr>
+    <tr><td class="dest"><b>大阪</b></td><td class="air"><span class="tag t-lcc">亞洲航空</span> 第 1 名</td><td data-label="日期">2027/3/3（三）～3/8（一）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>3/3、3/4、3/5、3/8</td><td data-label="班次">去 AK176 15:40→19:30 桃園→關西<br>回 AK177 20:55→23:15 關西→桃園</td><td class="num" data-label="票價">7,905</td><td data-label="行李費">約 2,700（估，20kg 約 1,348/段）</td><td class="num total" data-label="含行李總價">≈ NT$10,600</td><td data-label="備註">KAYAK 頁面（過去 72 小時，1 天前），頁面未標年份，依星期推算為 2027；行李費取自 KAYAK 文章的一般起價，實際以亞航官網加購價為準</td></tr>
+    <tr><td class="dest"><b>大阪</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 2 名</td><td data-label="日期">2027/6/9（三）～6/14（一）</td><td data-label="天數">6 天</td><td data-label="請假">請 3 天<br>6/10、6/11、6/14</td><td data-label="班次">去 CI152 09:45→13:20 桃園→關西<br>回 CI157 12:45→15:00（另有 CI153 14:30、CI173 19:00）</td><td class="num" data-label="票價">15,153</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$15,153</td><td data-label="備註">含端午 6/9，華航官網低價頁（16 小時前）。華航關西回程三班都在 12:00 後。6/9–6/13（請 2 天）15,169</td></tr>
+    <tr><td class="dest"><b>大阪</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 3 名</td><td data-label="日期">2027/5/13（四）～5/18（二）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>5/13、5/14、5/17、5/18</td><td data-label="班次">去 CI152 09:45→13:20<br>回 CI157 12:45→15:00</td><td class="num" data-label="票價">15,153</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$15,153</td><td data-label="備註">華航官網低價頁（17 小時前）。5/29–6/3 同價（請 4 天）</td></tr>
+    <tr><td class="dest"><b>福岡</b></td><td class="air"><span class="tag t-lcc">亞洲航空</span> 第 1 名</td><td data-label="日期">2027/3/1（一）～3/5（五）</td><td data-label="天數">5 天</td><td data-label="請假">請 4 天<br>3/2、3/3、3/4、3/5</td><td data-label="班次">去 12:00→15:20 桃園→福岡<br>回 16:20→18:10 福岡→桃園</td><td class="num" data-label="票價">9,208</td><td data-label="行李費">約 2,696（估，20kg 約 1,348/段）</td><td class="num total" data-label="含行李總價">≈ NT$11,904</td><td data-label="備註">KAYAK 頁面（過去 72 小時），未標年份，3/1 是週一與 2027 相符；同頁另一筆同價標「日期無效」，可信度要打折。3/1 是 228 補假不用請</td></tr>
+    <tr><td class="dest"><b>福岡</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 2 名</td><td data-label="日期">2027/6/6（日）～6/10（四）</td><td data-label="天數">5 天</td><td data-label="請假">請 3 天<br>6/7、6/8、6/10</td><td data-label="班次">去 CI110 06:50→10:00 桃園→福岡<br>回 CI117 20:35→22:20 福岡→桃園</td><td class="num" data-label="票價">13,223</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$13,223</td><td data-label="備註">含端午 6/9，華航官網低價頁（1 天前）。華航早班 CI111 11:00 不符合，要選晚班 CI117</td></tr>
+    <tr><td class="dest"><b>福岡</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 3 名</td><td data-label="日期">2027/5/13（四）～5/18（二）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>5/13、5/14、5/17、5/18</td><td data-label="班次">去 CI110 06:50→10:00<br>回 CI117 20:35→22:20</td><td class="num" data-label="票價">13,225</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$13,225</td><td data-label="備註">華航官網低價頁（1 小時前）。6/24–6/29 同價；6/4–6/8（請 3 天）13,286</td></tr>
+    <tr><td class="dest"><b>沖繩</b></td><td class="air"><span class="tag t-lcc">樂桃</span> 第 1 名</td><td data-label="日期">2027/2/13（六）～2/18（四）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>2/15、2/16、2/17、2/18</td><td data-label="班次">去 MM926 15:20→17:50 桃園→那霸<br>回 MM925 13:35→14:20 那霸→桃園</td><td class="num" data-label="票價">5,590</td><td data-label="行李費">約 1,900（估，約 930–1,000/段）</td><td class="num total" data-label="含行李總價">≈ NT$7,490</td><td data-label="備註">Google Flights 指定班次即時價格（19:00 左右）。樂桃早班 MM921 08:15 同價但不符合，要選 MM925</td></tr>
+    <tr><td class="dest"><b>沖繩</b></td><td class="air"><span class="tag t-lcc">台灣虎航</span> 第 2 名</td><td data-label="日期">2027/2/13（六）～2/18（四）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>2/15、2/16、2/17、2/18</td><td data-label="班次">去 IT232 18:20→20:40 桃園→那霸<br>回 IT233 18:40→19:30 那霸→桃園</td><td class="num" data-label="票價">8,315</td><td data-label="行李費">約 1,900（估，950/段）</td><td class="num total" data-label="含行李總價">≈ NT$10,215</td><td data-label="備註">Google Flights 指定班次即時價格。虎航早班 IT231 09:45 不符合。5/14–5/18 等日期 7,215 起，但很可能是早班回程價（見參考價）</td></tr>
+    <tr><td class="dest"><b>沖繩</b></td><td class="air"><span class="tag t-fsc">星宇航空</span> 第 3 名</td><td data-label="日期">2027/2/13（六）～2/18（四）</td><td data-label="天數">6 天</td><td data-label="請假">請 4 天<br>2/15、2/16、2/17、2/18</td><td data-label="班次">去 JX870 11:40→14:15 桃園→那霸<br>回 JX871 15:25→16:10 那霸→桃園</td><td class="num" data-label="票價">10,803</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$10,803</td><td data-label="備註">星宇官網低價頁（約 10 小時前），Google 同價。星宇那霸回程每天只有 JX871 一班。下一名：華航 5/21–5/25（請 3 天）11,337，回程 CI123 20:55</td></tr>
+    <tr><td class="dest"><b>北海道</b></td><td class="air"><span class="tag t-fsc">星宇航空</span> 第 1 名</td><td data-label="日期">2027/4/16（五）～4/19（一）</td><td data-label="天數">4 天</td><td data-label="請假"><span class="tag t-best">請 2 天</span><br>4/16、4/19</td><td data-label="班次">去 JX850 10:05→15:10 桃園→新千歲<br>回 JX851 16:25→19:35 新千歲→桃園</td><td class="num" data-label="票價">20,666</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$20,666</td><td data-label="備註">星宇官網低價頁（9 小時前）。星宇札幌每天一班，回程時間確定（夏季班表為 ekitan 推估）</td></tr>
+    <tr><td class="dest"><b>北海道</b></td><td class="air"><span class="tag t-fsc">星宇航空</span> 第 2 名</td><td data-label="日期">2027/4/13（二）～4/16（五）</td><td data-label="天數">4 天</td><td data-label="請假">請 4 天<br>4/13、4/14、4/15、4/16</td><td data-label="班次">去 JX850 10:05→15:10<br>回 JX851 16:25→19:35</td><td class="num" data-label="票價">20,666</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$20,666</td><td data-label="備註">星宇官網低價頁（9 小時前）</td></tr>
+    <tr><td class="dest"><b>北海道</b></td><td class="air"><span class="tag t-fsc">中華航空</span> 第 3 名</td><td data-label="日期">2027/6/18（五）～6/21（一）</td><td data-label="天數">4 天</td><td data-label="請假"><span class="tag t-best">請 2 天</span><br>6/18、6/21</td><td data-label="班次">去 CI130 08:35→13:35 桃園→新千歲<br>回 CI131 15:05→18:15 新千歲→桃園</td><td class="num" data-label="票價">20,847</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$20,847</td><td data-label="備註">華航官網低價頁（1 天前）。華航札幌每天一班，回程時間確定。6/6–6/10（請 3 天）同價</td></tr>
   </table>
   </div>
-  <details class="fold"><summary>參考價（日期不符或不是 5 天，只供判斷行情）</summary>
+  <details class="fold"><summary>參考價（回程時間未確認、日期不符或只有起價，只供判斷行情）</summary>
   <ul class="small">
-    <li>東京：台灣虎航 4/11–4/18（8 天）來回 8,851；樂桃 2/11–2/16（6 天，經那霸轉機）8,851；KAYAK 上捷星、酷航 8,851–8,884 都是 11–12 月出發，不在搜尋範圍。</li>
-    <li>大阪：亞洲航空 3/3–3/8（6 天）來回 7,905（未含行李，KAYAK 11/10）；Trip.com 雙 11 星宇獨家台北－大阪 8,999 起（見促銷）。</li>
-    <li>沖繩：星宇 1–3 月 10,803 起、4 月 12,012 起（2/13–2/18 是 6 天，沒有剛好 5 天的日期）。</li>
-    <li>北海道：星宇函館 1–4 月 16,676 起；全日空台北－札幌 2–4 月 16,951 起（含稅，可能需轉機）；長榮札幌 2–4 月 21,398 起。</li>
-    <li>名古屋：台灣虎航、樂桃（KAYAK，11/13 讀取）來回 9,339–9,372 起，日期是 12 月或 2/17–3/3（15 天），都不是 5 天也未含行李；虎航直飛去 08:45→12:25 或 15:05→18:50、回 21:15→23:50，樂桃有凌晨 02:55 去程、22:50 回程。星宇 2 月 13,989、3 月 13,980 起（多為 1 天或長天數）。長榮官網 403 查不到。KAYAK 12 個月平均 14,454。經營直飛：華航、星宇、虎航、樂桃、日航（共掛）、國泰。</li>
-    <li>福岡：星宇 13,945 起（沒有 5 天行程）；KAYAK 12 個月平均 13,888。</li>
+    <li>北海道：全日空官網低價頁 2/13（六）–2/16（二）（玩 4 天・請 2 天）、4/6（二）–4/11（日）（玩 6 天・請 3 天）來回 16,974，但頁面沒寫直飛或轉機，<b>回程時間未確認</b>（全日空沒有自營直飛，可能是長榮共掛或經東京轉機）。星宇函館 1–4 月 16,676 起（沒有 4～6 天日期）；長榮札幌 22,044 起、日航 18,733 起（頁面 403，只看到搜尋摘要）。</li>
+    <li>沖繩：台灣虎航 5/14–5/18、5/21–5/25、5/22–5/26 來回 7,215 起（含行李約 9,115），Google 未指定回程；5/25 單程早班 IT231 3,440、晚班 IT233 4,406，所以 7,215 很可能是早班回程價，<b>回程時間未確認</b>。長榮 5/12–5/16 等 11,976 起（回程要選 BR185 19:55）。</li>
+    <li>東京：長榮松山－羽田 4/25（日）–4/28（三）16,188（KAYAK，回程 BR2177 13:20 起飛，符合但排不進前三）；華航松山－羽田 4/22–4/26 15,546、5/1–5/4 15,561（只請 2 天，回程 CI221 14:15）。虎航成田官網只有單程 2,599（不含行李），沒有回程價。</li>
+    <li>大阪：長榮 13,768 起（頁面 403，只有搜尋摘要，沒有日期）；Trip.com 雙 11 星宇獨家台北－大阪來回 8,999 起（見促銷）。</li>
+    <li>福岡：長榮 5/26–5/31 14,276、7/24–7/29 14,564（只有搜尋摘要，可信度低）；星宇 13,606 起（沒有 4～6 天日期）。</li>
+    <li>已排除：虎航桃園－羽田 4/24–4/28 8,851（回程 05:25）、虎航福岡（只有 10:55 回程）、樂桃關西早班、華航那霸 CI121（11:55）、長榮那霸 BR113（10:15）等早上回程；以及請 5 天、玩 7 天以上的日期。</li>
+    <li>名古屋與熊本、廣島、鹿兒島、仙台不在目前的查詢範圍，舊資料保留在每日紀錄中（名古屋 11/13 舊條件 14,483）。</li>
   </ul></details>
-</div>
-
-<div class="card" data-tab="prices">
-  <h2>🗾 其他熱門機場（含行李，符合請假規則的 5 天日期）</h2>
-  <p class="small" style="margin-top:0">新增的地方機場，只查了華航、星宇官網低價頁（過去 48 小時查到，18:00 讀取）。傳統航空一般含託運行李，請在訂票頁確認。</p>
-  <div class="scroll">
-  <table class="rt rt-best">
-    <tr class="hd"><th>目的地</th><th>航空</th><th>出發～回程</th><th>請假</th><th>去回班次時間</th><th>票價</th><th>行李費</th><th>含行李總價</th><th>備註</th></tr>
-    <tr><td class="dest"><b>熊本</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/6（日）～6/10（四）</td><td data-label="請假">請 3 天<br>6/7、6/8、6/10</td><td data-label="班次">未公布</td><td class="num" data-label="票價">12,282</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$12,282</td><td data-label="備註">含端午 6/9。5/13（四）–5/17（一）12,298；11/4（四）–11/8（一）13,161；國慶 10/7（四）–10/11（一）只請 2 天但 18,334。星宇 1–4 月 10,941 起（沒有 5 天日期）</td></tr>
-    <tr><td class="dest"><b>鹿兒島</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/8（二）～6/12（六）</td><td data-label="請假">請 3 天<br>6/8、6/10、6/11</td><td data-label="班次">未公布</td><td class="num" data-label="票價">13,085</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$13,085</td><td data-label="備註">含端午 6/9。5–6 月 12,675 起，但那些日期請假超過 3 天或不是 5 天</td></tr>
-    <tr><td class="dest"><b>廣島</b></td><td class="air"><span class="tag t-fsc">中華航空</span></td><td data-label="日期">2027/6/18（五）～6/22（二）</td><td data-label="請假">請 3 天<br>6/18、6/21、6/22</td><td data-label="班次">未公布</td><td class="num" data-label="票價">13,699</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">NT$13,699</td><td data-label="備註">5/29（六）–6/2（三）13,710；6/19（六）–6/23（三）14,120</td></tr>
-    <tr><td class="dest"><b>仙台</b></td><td class="air"><span class="tag t-fsc">星宇航空</span></td><td data-label="日期">無 5 天日期</td><td data-label="請假">—</td><td data-label="班次">未公布</td><td class="num" data-label="票價">16,088 起</td><td data-label="行李費">一般已含（請確認）</td><td class="num total" data-label="含行李總價">參考價 16,088</td><td data-label="備註">星宇 3 月最低 16,088、4 月 16,218（列出的日期都是 2–4 週行程）。華航仙台低價頁 404。台灣虎航、長榮也有飛仙台，這次沒查到價格</td></tr>
-  </table>
-  </div>
-  <p class="small">之後可以再加：岡山、高松、小松、花卷、青森、宮崎、靜岡等（多為虎航或華航直飛，班次較少）。</p>
 </div>
 
 <div class="card" data-tab="trend">
@@ -221,13 +216,13 @@
   <div class="scroll">
   <table class="rt rt-log">
     <tr class="hd"><th>日期</th><th>東京</th><th>大阪</th><th>名古屋</th><th>福岡</th><th>沖繩</th><th>北海道</th></tr>
-    <tr><td class="date"><b>2026-11-13</b></td><td class="num" data-label="東京">≈10,750<br><span class="small">虎航（估）↑50</span></td><td class="num" data-label="大阪">15,169<br><span class="small">華航 ↓157・請 2 天</span></td><td class="num" data-label="名古屋">14,483<br><span class="small">華航（新增）</span></td><td class="num" data-label="福岡">13,223<br><span class="small">華航 ↓928</span></td><td class="num" data-label="沖繩">11,631<br><span class="small">華航 ↓334</span></td><td class="num" data-label="北海道">20,847<br><span class="small">華航札幌 ↓9,011</span></td></tr>
+    <tr><td class="date"><b>2026-11-13</b></td><td class="num" data-label="東京">14,894<br><span class="small">華航 6/17–6/22（新條件）</span></td><td class="num" data-label="大阪">≈10,600<br><span class="small">亞航（估）新條件</span></td><td class="num" data-label="名古屋">—<br><span class="small">新條件未查（舊 14,483）</span></td><td class="num" data-label="福岡">≈11,904<br><span class="small">亞航（估）新條件</span></td><td class="num" data-label="沖繩">≈7,490<br><span class="small">樂桃（估）新條件</span></td><td class="num" data-label="北海道">20,666<br><span class="small">星宇・請 2 天</span></td></tr>
     <tr><td class="date"><b>2026-11-12</b></td><td class="num" data-label="東京">≈10,700<br><span class="small">虎航（估）</span></td><td class="num" data-label="大阪">15,326<br><span class="small">長榮 持平</span></td><td class="num" data-label="名古屋">—</td><td class="num" data-label="福岡">14,151<br><span class="small">長榮 ↑133</span></td><td class="num" data-label="沖繩">11,965<br><span class="small">長榮 持平</span></td><td class="num" data-label="北海道">29,858<br><span class="small">日航松山 ↑8,696</span></td></tr>
     <tr><td class="date"><b>2026-11-11</b></td><td class="num" data-label="東京">≈10,700<br><span class="small">虎航（估）</span></td><td class="num" data-label="大阪">15,326<br><span class="small">長榮 ↓331</span></td><td class="num" data-label="名古屋">—</td><td class="num" data-label="福岡">14,018<br><span class="small">長榮</span></td><td class="num" data-label="沖繩">11,965<br><span class="small">長榮（請 3 天）</span></td><td class="num" data-label="北海道">21,162<br><span class="small">日航（沿用）</span></td></tr>
     <tr><td class="date"><b>2026-11-10</b></td><td class="num" data-label="東京">≈10,700<br><span class="small">虎航（估）</span></td><td class="num" data-label="大阪">15,657<br><span class="small">長榮</span></td><td class="num" data-label="名古屋">—</td><td class="num" data-label="福岡">14,018<br><span class="small">長榮</span></td><td class="num" data-label="沖繩">11,965<br><span class="small">長榮</span></td><td class="num" data-label="北海道">21,162<br><span class="small">日航</span></td></tr>
   </table>
   </div>
-  <p class="small">每天新增一列，最多保留最近 30 天。只記錄符合請假規則的 5 天行程價格。11/13 這一列是當天最後一次查詢的結果（17:20，17:40 複查沖繩、東京同價）；當天 13:17 曾看到沖繩 11,328、北海道星宇函館 16,673，後來頁面已不再顯示。11/13 起多查華航、星宇官網，降幅主要來自新來源。名古屋 11/13 起新增，之前沒有紀錄。</p>
+  <p class="small">每天一列，填當天各目的地第 1 名的含行李總價，最多保留最近 30 天。<b>11/12 以前是舊條件（只看 5 天行程、請假 ≤3 天、回程時間不限）</b>，跟 11/13 起的新條件（玩 4～6 天、請假 ≤4 天、回程 12:00 後起飛）不能直接比較。11/13 當天稍早用舊條件查到的是：東京 ≈10,750（虎航，回程 05:25，新條件已排除）、大阪 15,169、名古屋 14,483、福岡 13,223、沖繩 11,631、北海道 20,847；這一列改填 19:05 新條件重查的結果。名古屋目前不在查詢範圍。</p>
 </div>
 
 <div class="card" data-tab="promo">
@@ -235,104 +230,137 @@
   <div class="scroll">
   <table class="rt rt-promo">
     <tr class="hd"><th>航空</th><th>內容</th><th>購票期限</th><th>適用出發日</th></tr>
-    <tr><td data-label="航空"><span class="tag t-other">國泰</span></td><td data-label="內容">70 多條航線 8 折起；優惠碼 CXITF500（短程折 500，限量）</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/13 今天截止</span><br><span class="small">今晚前要用</span></td><td data-label="出發日">到 2027/9/30（2/3–2/7 不適用）</td></tr>
+    <tr><td data-label="航空"><span class="tag t-fsc">長榮</span></td><td data-label="內容">ITF 線上旅展，精選航線 82 折起（限官網、App）；桃園－沖繩 6,640 起、松山－羽田 11,305 起（單程未稅），台北－東京來回含稅 14,905 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/15 23:59</span><br><span class="small">中央社、TVBS 都寫 11/15（之前寫的 11/21 是誤植）</span></td><td data-label="出發日">到 2027/6/30</td></tr>
     <tr><td data-label="航空"><span class="tag t-fsc">星宇</span></td><td data-label="內容">Trip.com 雙 11 旅展獨家來回：台北－大阪 8,999 起（另有香港 3,999、曼谷 5,999）；未說明是否含稅、行李</td><td data-label="購票期限"><b>11/11–11/14</b><br><span class="small">可能已售完</span></td><td data-label="出發日">未公布</td></tr>
-    <tr><td data-label="航空"><span class="tag t-fsc">長榮</span></td><td data-label="內容">ITF 線上旅展，精選航線 82 折起；桃園－沖繩 6,640 起、松山－羽田 11,305 起（單程未稅）</td><td class="num" data-label="購票期限">11/21 23:59<br><span class="small">TVBS 寫 11/15，以官網 11/21 為準（請確認）</span></td><td data-label="出發日">到 2027/6/30</td></tr>
-    <tr><td data-label="航空"><span class="tag t-fsc">華航</span></td><td data-label="內容">ITF 線上旅展，精選航線 76 折起；沖繩 5,994 起（依活動頁）</td><td class="num" data-label="購票期限">11/21</td><td data-label="出發日">到 2027/6/30</td></tr>
-    <tr><td data-label="航空"><span class="tag t-fsc">星宇</span></td><td data-label="內容">官網線上旅展，台灣出發全航線 85 折起；東京、大阪、福岡、札幌、函館、沖繩都適用；玉山星宇聯名卡另有每日限量折扣碼</td><td class="num" data-label="購票期限">11/23</td><td data-label="出發日">2026/10/22–2027/6/30，春節不適用</td></tr>
+    <tr><td data-label="航空"><span class="tag t-fsc">華航</span></td><td data-label="內容">線上旅展 76 折起；沖繩 5,994 起（未稅）。網友整理來回含稅：東京約 14,059、大阪約 14,461、福岡約 12,595、札幌約 18,960（部分日期不適用）</td><td class="num" data-label="購票期限">11/21</td><td data-label="出發日">到 2027/6/30</td></tr>
+    <tr><td data-label="航空"><span class="tag t-fsc">星宇</span></td><td data-label="內容">官網線上旅展，台灣出發全航線 85 折起；東京、大阪、福岡、札幌、函館、沖繩都適用；熊本加碼折扣碼已兌換完</td><td class="num" data-label="購票期限">11/23</td><td data-label="出發日">2026/10/22–2027/6/30，春節不適用</td></tr>
+    <tr><td data-label="航空"><span class="tag t-other">國泰</span></td><td data-label="內容">ITF 70 多條航線 8 折起，會員輸入優惠編號短程折 500（限量）；日本來回含稅東京 13,433、大阪 13,909 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/13 今天截止</span></td><td data-label="出發日">到 2027/9/30（2/3–2/7 不適用）</td></tr>
+    <tr><td data-label="航空"><span class="tag t-other">日本航空</span></td><td data-label="內容">ITF 來回含稅：沖繩 7,639、東京 13,859 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/13 今天截止</span></td><td data-label="出發日">到 2027/3/23</td></tr>
     <tr><td data-label="航空"><span class="tag t-other">全日空</span></td><td data-label="內容">線上旅展：台北往返日本經濟艙含稅 16,000 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/11 已結束</span></td><td data-label="出發日">2027/2/1–6/25</td></tr>
-    <tr><td data-label="航空"><span class="tag t-other">日本航空</span></td><td data-label="內容">台北－沖繩經濟艙 3,200 起（稅與條件依現場公告）</td><td class="num" data-label="購票期限"><span class="tag t-warn">旅展 11/9 已結束</span></td><td data-label="出發日">依公告</td></tr>
-    <tr><td data-label="航空"><span class="tag t-lcc">台灣虎航</span></td><td data-label="內容">ITF 線上旅展，全航線單程未稅 999 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/9 已結束</span></td><td data-label="出發日">到 2027/10/30</td></tr>
+    <tr><td data-label="航空"><span class="tag t-other">新加坡航空</span></td><td data-label="內容">ITF 優惠</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/12 已結束</span></td><td data-label="出發日">依公告</td></tr>
+    <tr><td data-label="航空"><span class="tag t-lcc">台灣虎航</span></td><td data-label="內容">ITF 線上旅展，日本線單程未稅 999 起；之後沒有新的促銷公告</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/9 已結束</span></td><td data-label="出發日">到 2027/10/30</td></tr>
     <tr><td data-label="航空"><span class="tag t-lcc">樂桃</span></td><td data-label="內容">台日指定航線限時促銷，單程未稅 1,280 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/9 已結束</span></td><td data-label="出發日">指定日期</td></tr>
-    <tr><td data-label="航空"><span class="tag t-lcc">亞洲航空</span></td><td data-label="內容">ITF 冬季促銷，單程含稅 2,290 起</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/8 已結束</span></td><td data-label="出發日">依公告</td></tr>
+    <tr><td data-label="航空"><span class="tag t-lcc">亞洲航空</span></td><td data-label="內容">ITF 冬季促銷，單程含稅 2,290 起；台北－福岡單程含稅 2,303 起（出發 2026/11/2–2027/9/30）</td><td class="num" data-label="購票期限"><span class="tag t-warn">11/8 已結束</span></td><td data-label="出發日">依公告</td></tr>
   </table>
   </div>
-  <p class="small">17:20 複查：虎航、樂桃、酷航的旅展促銷都已結束，今天沒有看到新的廉航促銷公告；樂桃在旅展只公布新品牌形象與抽獎，沒有新票價。</p>
+  <p class="small">捷星、酷航今年沒有找到新的台日促銷；樂桃、虎航旅展後也還沒有新公告。國泰報導中的優惠碼名稱查不到原文，請以官網會員頁為準。</p>
 </div>
 
 <div class="card" data-tab="info">
-  <h2>🧳 廉航託運行李費參考（訂位時加購，每段）</h2>
+  <h2>🧳 廉航託運行李費參考（訂位時加購，每段 20kg）</h2>
   <ul>
-    <li><b>台灣虎航：</b>20kg 約 NT$950；tigersmart 票種已含 20kg</li>
-    <li><b>樂桃：</b>每件（20kg）約 NT$900；Standard 票種已含</li>
-    <li><b>捷星：</b>20kg 約 NT$1,100；經濟艙套餐已含 20kg</li>
-    <li><b>酷航：</b>FlyBag 票種含 20kg，比基本票約貴 NT$1,130</li>
+    <li><b>台灣虎航：</b>約 NT$850–950；tigersmart 票種已含 20kg</li>
+    <li><b>樂桃：</b>約 NT$900–930（計件，機場加購約 1,300）；Standard 票種已含</li>
+    <li><b>捷星：</b>約 NT$900；經濟艙套餐已含 20kg</li>
+    <li><b>酷航：</b>約 NT$820–940（開票後約 1,190）；FlyBag 票種含 20kg</li>
+    <li><b>亞洲航空：</b>約 NT$620–1,348（各來源差很多，本頁估算用 1,348 偏保守）</li>
   </ul>
-  <p class="small">來回兩段大約多 NT$1,800–2,300。行李費會依航線和購買時間變動，以上取自比價網和媒體整理，不一定是最新價格。</p>
+  <p class="small">來回兩段大約多 NT$1,600–2,700。資料取自 Trip.com 日本廉航攻略（2026/6/8）與比價文章，各航空官網費用表都讀不到金額，實際以結帳頁為準。</p>
 </div>
 
 <div class="card" data-tab="info">
   <h2>🧩 資料缺口</h2>
   <ul>
-    <li><b>18:00 新增名古屋與其他熱門機場：</b>名古屋查了華航、星宇官網與 KAYAK；長榮名古屋頁回應 403。熊本、廣島、鹿兒島只查華航，熊本、仙台加查星宇；華航仙台頁 404。這些地方機場的廉航（虎航、樂桃等）還沒查到符合 5 天的實際票價。</li>
-    <li><b>17:45 第 8 次執行（GitHub 同步測試）：</b>只複查華航沖繩、東京低價頁（價格與 17:20 相同），其他沿用 17:20 的資料。這次 repo 已掛在 session 中，改用 GitHub 自動同步公開網站。</li>
-    <li><b>17:25 第 7 次執行（測試執行）：</b>距上次只隔 5 分鐘，華航、星宇頁面沿用 17:20 的結果；另查星宇札幌（4–5 月 20,666 起，沒有剛好 5 天的日期）。長榮官網回應 403 被擋，長榮價格仍沿用 13:17。</li>
-    <li><b>17:20 第 6 次執行：</b>重新查了華航（東京、大阪、福岡、沖繩、札幌）、星宇（函館、沖繩）與 KAYAK 東京頁；長榮、日航、全日空與其他 KAYAK 頁沿用 13:17 的資料。Google Flights 沒有查（先前連續被限流）。公開網站這次仍未更新：這個 session 的 GitHub 權杖無效，add_repo 工具也沒有載入。</li>
-    <li>官網低價頁是「過去 48 小時其他旅客查到的價格」，同一天內就會換掉：沖繩 5/20–5/24 11,328、函館 3/18–3/22 16,673、東京 5/22–5/26 14,893 都在 13:17 到 17:20 之間消失，不代表沒位或漲價。</li>
-    <li>東京虎航 4/24–4/28 是 KAYAK 頁面價格，不是即時查價；行李費以 20kg 約 950/段估算。</li>
-    <li>大阪、福岡、沖繩、北海道今天都沒找到符合請假規則的廉航實際票價。</li>
-    <li>清明連假（請 1 天）仍沒有任何航空的實際票價；請 2 天的窗口只找到大阪華航端午兩組。</li>
-    <li>華航、長榮、星宇官網低價頁沒寫是否含稅，也沒寫票種是否含託運行李；官網目前只出現 2027/6 月底前的日期，7–11 月還沒有實際票價。</li>
-    <li>傳統航空低價頁都沒有班次時間，所以表格寫「未公布」。</li>
+    <li><b>19:05 條件更新後全部重查：</b>改成玩 4～6 天、請假 ≤4 天、回程 12:00 後起飛、每條航線前三名。目的地改為東京、大阪、福岡、沖繩、北海道五個；名古屋與其他地方機場暫不查。</li>
+    <li><b>回程班次：</b>華航、星宇、全日空低價頁都沒指定班次，表中寫的是該航線 12:00 後的班次；實際搭那班的票價可能不同。華航札幌、星宇札幌、星宇那霸每天只有一班，時間可確定。2027 夏季班表（3 月底起）多數尚未正式公告，時刻沿用冬季或 ekitan 推估。</li>
+    <li><b>長榮：</b>flights.evaair.com 全部 403，這次沒有拿到長榮官網價格，只有搜尋摘要（列在參考價）。日航、酷航官網也是 403，捷星 503。</li>
+    <li><b>廉航：</b>東京、北海道沒有找到 2027 年範圍內「來回、日期合格、回程 12:00 後」的廉航實際票價；虎航成田、札幌只有單程起價。虎航羽田（IT217 清晨）、虎航福岡（IT241 10:55）只有早上回程，全部排除。</li>
+    <li><b>亞洲航空：</b>大阪、福岡兩筆是 KAYAK 過去 72 小時的頁面價，頁面沒標年份（依星期推算為 2027），行李費是估算；福岡那筆同頁另有「日期無效」標示，請到亞航官網確認。</li>
+    <li><b>沖繩：</b>Google Flights 後來跳出驗證碼，6 月日期與長榮指定班次沒能再查。樂桃 2027 夏季是否續飛桃園－那霸未確認。</li>
+    <li><b>2028 年：</b>117 年辦公日曆表尚未公布；這次搜尋範圍只到 2027/11/13，不受影響。</li>
+    <li>Skyscanner、flightconnections 讀不到內容；KAYAK 舊網址 503（tw.kayak.com 可讀但只顯示前 10 筆）。</li>
   </ul>
 </div>
 
 <div class="card" data-tab="info">
   <h2>🔗 來源</h2>
   <ul class="small">
-    <li><a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-okinawa">華航：台北－沖繩</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-fukuoka">福岡</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-osaka">大阪</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-tokyo">東京</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-sapporo">札幌</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-nagoya">名古屋</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kumamoto">熊本</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-hiroshima">廣島</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kagoshima">鹿兒島</a>低價頁</li>
-    <li><a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-hakodate">星宇：台北－函館</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei">台北出發各航點</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-tokyo">東京</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-osaka">大阪</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-okinawa">沖繩</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-fukuoka">福岡</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-sapporo">札幌</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-nagoya">名古屋</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-kumamoto">熊本</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-sendai">仙台</a></li>
-    <li><a href="https://www.jal.co.jp/jp/ja/flights/zh-tw/航班-前往-東京">日本航空：台北－東京票價</a>、<a href="https://www.jal.co.jp/twl/zhtw/destination/hokkaido/index.html">日本航空：台灣－札幌</a></li>
-    <li><a href="https://www.ana.co.jp/plan-book/zh-tw/flights-from-taipei-to-sapporo">全日空：台北－札幌</a></li>
-    <li><a href="https://flights.evaair.com/zh-tw/%E8%88%AA%E7%8F%AD-%E5%BE%9E-%E5%8F%B0%E5%8C%97-%E5%89%8D%E5%BE%80-%E6%B2%96%E7%B9%A9">長榮：沖繩</a>、<a href="https://flights.evaair.com/zh-tw/%E8%88%AA%E7%8F%AD-%E5%BE%9E-%E5%8F%B0%E5%8C%97-%E5%89%8D%E5%BE%80-%E6%9D%B1%E4%BA%AC">東京</a>、<a href="https://flights.evaair.com/zh-tw/%E8%88%AA%E7%8F%AD-%E5%BE%9E-%E5%8F%B0%E5%8C%97-%E5%89%8D%E5%BE%80-%E5%A4%A7%E9%98%AA">大阪</a>、<a href="https://flights.evaair.com/zh-tw/%E8%88%AA%E7%8F%AD-%E5%BE%9E-%E5%8F%B0%E5%8C%97-%E5%89%8D%E5%BE%80-%E7%A6%8F%E5%B2%A1">福岡</a>、<a href="https://flights.evaair.com/zh-tw/%E8%88%AA%E7%8F%AD-%E5%BE%9E-%E5%8F%B0%E5%8C%97-%E5%89%8D%E5%BE%80-%E6%9C%AD%E5%B9%8C">札幌</a>低價月曆</li>
-    <li><a href="https://www.tw.kayak.com/航班/台北-臺灣桃園國際及其他機場-TPE/東京-TYO">KAYAK：台北－東京</a>、<a href="https://www.tw.kayak.com/航班/台北-臺灣桃園國際及其他機場-TPE/大阪-OSA">大阪</a>、<a href="https://www.tw.kayak.com/%E8%88%AA%E7%8F%AD/%E5%8F%B0%E5%8C%97-TW1/%E6%B2%96%E7%B9%A9-%E9%82%A3%E9%9C%B8%E6%A9%9F%E5%A0%B4-OKA">沖繩</a>、<a href="https://www.tw.kayak.com/%E8%88%AA%E7%8F%AD/%E5%8F%B0%E5%8C%97-%E5%8F%B0%E7%81%A3%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E5%8F%8A%E5%85%B6%E4%BB%96%E6%A9%9F%E5%A0%B4-TPE/%E6%9C%AD%E5%B9%8C-%E6%96%B0%E5%8D%83%E6%AD%B2%E6%A9%9F%E5%A0%B4-CTS">札幌</a>、<a href="https://www.tw.kayak.com/%E8%88%AA%E7%8F%AD/%E5%8F%B0%E5%8C%97-TW1/%E7%A6%8F%E5%B2%A1%E6%A9%9F%E5%A0%B4-FUK">福岡</a>、<a href="https://www.tw.kayak.com/航班/台北-臺灣桃園國際及其他機場-TPE/名古屋-NGO">名古屋</a></li>
-    <li><a href="https://www.prnewswire.com/apac/zh/news-releases/tripcom113999-302937834.html">美通社：Trip.com 雙 11 星宇獨家來回機票（11/12）</a></li>
-    <li><a href="https://www.nownews.com/news/6889857">NOWnews：ITF 航空優惠整理（11/6）</a>、<a href="https://www.nownews.com/news/6888773">NOWnews：旅展機票優惠</a>、<a href="https://www.mirrormedia.mg/story/amp/20261108tour002">鏡週刊：旅展優惠（11/8）</a></li>
-    <li><a href="https://cpok.tw/74124">CP值：2026 ITF 航空機票優惠整理</a>、<a href="https://roundtripjp.com/airline-promotions/">巡日旅行攝：航空公司促銷</a></li>
-    <li><a href="https://www.ettoday.net/news/20260521/3169805.htm">ETtoday：2027 年行事曆（人事總處 116 年辦公日曆）</a></li>
-    <li><a href="https://www.cw.com.tw/article/5125955">天下：飛日韓廉航行李規定</a></li>
+    <li><a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-tokyo">華航：台北－東京</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-osaka">大阪</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-fukuoka">福岡</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-okinawa">沖繩</a>、<a href="https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-sapporo">札幌</a>低價頁</li>
+    <li><a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-tokyo">星宇：台北－東京</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-osaka">大阪</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-fukuoka">福岡</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-okinawa">沖繩</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-sapporo">札幌</a>、<a href="https://www.starlux-airlines.com/flights/zh/flights-from-taipei-to-hakodate">函館</a>、<a href="https://www.starlux-airlines.com/flights/zh-tw/international-travel-fair-2026">線上旅展</a></li>
+    <li><a href="https://www.ana.co.jp/plan-book/zh-tw/flights-from-taipei-to-sapporo">全日空：台北－札幌</a>、<a href="https://www.tigerairtw.com/zh-tw/flights/taoyuan-to-tokyo-narita">台灣虎航：桃園－成田</a></li>
+    <li><a href="https://tw.kayak.com/flight-routes/Taipei-TPE/Osaka-Kansai-KIX">KAYAK：台北－關西</a>、<a href="https://tw.kayak.com/flight-routes/Taipei-Taoyuan-TPE/Fukuoka-FUK">台北－福岡</a>、<a href="https://tw.kayak.com/flight-routes/Taipei-Songshan-TSA/Tokyo-Haneda-HND">松山－羽田</a></li>
+    <li><a href="https://www.google.com/travel/flights?q=Flights%20from%20TPE%20to%20OKA%20on%202027-02-13%20through%202027-02-18&amp;hl=zh-TW&amp;curr=TWD&amp;gl=tw">Google Flights：桃園－那霸 2/13–2/18</a>、<a href="https://www.google.com/travel/flights?q=Flights%20from%20TPE%20to%20OKA%20on%202027-05-14%20through%202027-05-18&amp;hl=zh-TW&amp;curr=TWD&amp;gl=tw">5/14–5/18</a></li>
+    <li>班表：<a href="https://ekitan.com/">ekitan 國際線時刻表（OAG）</a>、<a href="https://flights.ctrip.com/international/search/schedule/osa-tpe.html">攜程 大阪→台北時刻表</a>、<a href="https://tw.trip.com/flights/status-ci117/">Trip.com 航班動態</a>、<a href="https://newsroom.airasia.com/news/tpe-fuk">亞洲航空 台北－福岡開航</a></li>
+    <li><a href="https://www.cna.com.tw/business/chinese/447659">中央社：長榮旅展（11/15 截止）</a>、<a href="https://news.tvbs.com.tw/life/4040292">TVBS：旅展機票優惠</a>、<a href="https://news.tvbs.com.tw/life/4044806">TVBS：已結束促銷</a>、<a href="https://www.mirrormedia.mg/external/setn_1936631">三立：Trip.com 雙 11 星宇</a>、<a href="https://www.nownews.com/news/6888773">NOWnews：虎航旅展</a></li>
+    <li><a href="https://tw.trip.com/guide/airline-deals/%E6%97%A5%E6%9C%AC%E5%BB%89%E8%88%AA.html">Trip.com：日本廉航行李費</a>、<a href="https://www.ettoday.net/news/20260521/3169805.htm">ETtoday：2027 年行事曆（人事總處 116 年辦公日曆）</a></li>
   </ul>
 </div>
 
 <div class="card" data-tab="leave">
-  <h2>🗓️ 最省假的出發窗口（5 天行程）</h2>
-  <p class="small" style="margin-top:0">依據人事行政總處 116 年（2027）辦公日曆表，週末與國定假日都不用請假。出發日當天和回程日當天如果是上班日，都算請假。範圍內（2/13 起）共 2 個請 1 天、20 個請 2 天、148 個請 3 天的窗口。範圍只到 2027/11/13，還不需要 2028 年行事曆。</p>
-  <h3>只要請 1 天 ⭐</h3>
+  <h2>🗓️ 最省假的出發窗口（玩 4～6 天）</h2>
+  <p class="small" style="margin-top:0">依人事行政總處 116 年（2027）辦公日曆表，週末與國定假日都不用請假；出發日、回程日如果是上班日也算請假。範圍 2027/2/13–11/13 內，符合「玩 4～6 天、請假 ≤4 天」的窗口共 729 個：請 0 天 1 個、請 1 天 13 個、請 2 天 140 個、請 3 天 259 個、請 4 天 316 個。範圍還沒到 2028 年。綠框是有實際票價的窗口。</p>
+  <h3>不用請假 / 只要請 1 天 ⭐</h3>
   <div class="grid">
-    <div class="win one"><div class="d">4/2（五）→ 4/6（二）</div><div class="l">請 4/2・清明＋兒童節連假</div></div>
-    <div class="win one"><div class="d">4/3（六）→ 4/7（三）</div><div class="l">請 4/7・清明＋兒童節連假</div></div>
+    <div class="win"><div class="d">4/3（六）→ 4/6（二）</div><div class="l">玩 4 天・不用請假・兒童節＋清明</div></div>
+    <div class="win"><div class="d">4/2（五）→ 4/6（二）</div><div class="l">玩 5 天・請 4/2・清明連假</div></div>
+    <div class="win"><div class="d">4/3（六）→ 4/7（三）</div><div class="l">玩 5 天・請 4/7・清明連假</div></div>
+    <div class="win"><div class="d">4/2（五）→ 4/5（一）</div><div class="l">玩 4 天・請 4/2</div></div>
+    <div class="win"><div class="d">4/4（日）→ 4/7（三）</div><div class="l">玩 4 天・請 4/7</div></div>
+    <div class="win"><div class="d">2/26（五）→ 3/1（一）</div><div class="l">玩 4 天・請 2/26・228 連假</div></div>
+    <div class="win"><div class="d">2/27（六）→ 3/2（二）</div><div class="l">玩 4 天・請 3/2・228 連假</div></div>
+    <div class="win"><div class="d">4/29（四）→ 5/2（日）</div><div class="l">玩 4 天・請 4/29・勞動節連假</div></div>
+    <div class="win"><div class="d">4/30（五）→ 5/3（一）</div><div class="l">玩 4 天・請 5/3・勞動節連假</div></div>
+    <div class="win"><div class="d">9/25（六）→ 9/28（二）</div><div class="l">玩 4 天・請 9/27・教師節</div></div>
+    <div class="win"><div class="d">10/8（五）→ 10/11（一）</div><div class="l">玩 4 天・請 10/8・國慶連假</div></div>
+    <div class="win"><div class="d">10/9（六）→ 10/12（二）</div><div class="l">玩 4 天・請 10/12・國慶連假</div></div>
+    <div class="win"><div class="d">10/22（五）→ 10/25（一）</div><div class="l">玩 4 天・請 10/22・光復節連假</div></div>
+    <div class="win"><div class="d">10/23（六）→ 10/26（二）</div><div class="l">玩 4 天・請 10/26・光復節連假</div></div>
   </div>
-  <h3>請 2 天</h3>
+  <h3>請 2 天（玩 5～6 天的連假窗口，以及有價格的 4 天窗口）</h3>
   <div class="grid">
-    <div class="win"><div class="d">2/25（四）→ 3/1（一）</div><div class="l">請 2/25、2/26・228 連假</div></div>
-    <div class="win"><div class="d">2/26（五）→ 3/2（二）</div><div class="l">請 2/26、3/2・228 連假</div></div>
-    <div class="win"><div class="d">2/27（六）→ 3/3（三）</div><div class="l">請 3/2、3/3・228 連假</div></div>
-    <div class="win"><div class="d">4/1（四）→ 4/5（一）</div><div class="l">請 4/1、4/2・清明連假</div></div>
-    <div class="win"><div class="d">4/4（日）→ 4/8（四）</div><div class="l">請 4/7、4/8・清明連假</div></div>
-    <div class="win"><div class="d">4/28（三）→ 5/2（日）</div><div class="l">請 4/28、4/29・勞動節連假</div></div>
-    <div class="win"><div class="d">4/29（四）→ 5/3（一）</div><div class="l">請 4/29、5/3・勞動節連假</div></div>
-    <div class="win"><div class="d">4/30（五）→ 5/4（二）</div><div class="l">請 5/3、5/4・勞動節連假</div></div>
-    <div class="win one"><div class="d">6/5（六）→ 6/9（三）</div><div class="l">請 6/7、6/8・端午 6/9・華航大阪 15,416</div></div>
-    <div class="win one"><div class="d">6/9（三）→ 6/13（日）</div><div class="l">請 6/10、6/11・端午 6/9・華航大阪 15,169</div></div>
-    <div class="win"><div class="d">9/11（六）→ 9/15（三）</div><div class="l">請 9/13、9/14・中秋 9/15</div></div>
-    <div class="win"><div class="d">9/15（三）→ 9/19（日）</div><div class="l">請 9/16、9/17・中秋 9/15</div></div>
-    <div class="win"><div class="d">9/24（五）→ 9/28（二）</div><div class="l">請 9/24、9/27・教師節 9/28</div></div>
-    <div class="win"><div class="d">9/25（六）→ 9/29（三）</div><div class="l">請 9/27、9/29・教師節 9/28</div></div>
-    <div class="win"><div class="d">10/7（四）→ 10/11（一）</div><div class="l">請 10/7、10/8・國慶連假</div></div>
-    <div class="win"><div class="d">10/8（五）→ 10/12（二）</div><div class="l">請 10/8、10/12・國慶連假</div></div>
-    <div class="win"><div class="d">10/9（六）→ 10/13（三）</div><div class="l">請 10/12、10/13・國慶連假</div></div>
-    <div class="win"><div class="d">10/21（四）→ 10/25（一）</div><div class="l">請 10/21、10/22・光復節連假</div></div>
-    <div class="win"><div class="d">10/22（五）→ 10/26（二）</div><div class="l">請 10/22、10/26・光復節連假</div></div>
-    <div class="win"><div class="d">10/23（六）→ 10/27（三）</div><div class="l">請 10/26、10/27・光復節連假</div></div>
+    <div class="win"><div class="d">2/25（四）→ 3/1（一）</div><div class="l">玩 5 天・請 2/25、2/26・228</div></div>
+    <div class="win"><div class="d">2/26（五）→ 3/2（二）</div><div class="l">玩 5 天・請 2/26、3/2・228</div></div>
+    <div class="win"><div class="d">2/27（六）→ 3/3（三）</div><div class="l">玩 5 天・請 3/2、3/3・228</div></div>
+    <div class="win"><div class="d">4/1（四）→ 4/6（二）</div><div class="l">玩 6 天・請 4/1、4/2・清明</div></div>
+    <div class="win"><div class="d">4/2（五）→ 4/7（三）</div><div class="l">玩 6 天・請 4/2、4/7・清明</div></div>
+    <div class="win"><div class="d">4/3（六）→ 4/8（四）</div><div class="l">玩 6 天・請 4/7、4/8・清明</div></div>
+    <div class="win"><div class="d">4/1（四）→ 4/5（一）</div><div class="l">玩 5 天・請 4/1、4/2・清明</div></div>
+    <div class="win"><div class="d">4/4（日）→ 4/8（四）</div><div class="l">玩 5 天・請 4/7、4/8・清明</div></div>
+    <div class="win one"><div class="d">4/16（五）→ 4/19（一）</div><div class="l">玩 4 天・請 4/16、4/19・星宇札幌 20,666</div></div>
+    <div class="win"><div class="d">4/28（三）→ 5/2（日）</div><div class="l">玩 5 天・請 4/28、4/29・勞動節</div></div>
+    <div class="win"><div class="d">4/29（四）→ 5/3（一）</div><div class="l">玩 5 天・請 4/29、5/3・勞動節</div></div>
+    <div class="win"><div class="d">4/30（五）→ 5/4（二）</div><div class="l">玩 5 天・請 5/3、5/4・勞動節</div></div>
+    <div class="win one"><div class="d">5/1（六）→ 5/4（二）</div><div class="l">玩 4 天・請 5/3、5/4・華航松山羽田 15,561</div></div>
+    <div class="win one"><div class="d">5/20（四）→ 5/23（日）</div><div class="l">玩 4 天・請 5/20、5/21・華航松山羽田 15,561</div></div>
+    <div class="win one"><div class="d">6/4（五）→ 6/7（一）</div><div class="l">玩 4 天・請 6/4、6/7・華航沖繩 11,348（官網低價頁，回程選 CI123）</div></div>
+    <div class="win one"><div class="d">6/5（六）→ 6/9（三）</div><div class="l">玩 5 天・請 6/7、6/8・端午・華航大阪 15,416</div></div>
+    <div class="win one"><div class="d">6/9（三）→ 6/13（日）</div><div class="l">玩 5 天・請 6/10、6/11・端午・華航大阪 15,169</div></div>
+    <div class="win one"><div class="d">6/18（五）→ 6/21（一）</div><div class="l">玩 4 天・請 6/18、6/21・華航札幌 20,847</div></div>
+    <div class="win"><div class="d">9/11（六）→ 9/15（三）</div><div class="l">玩 5 天・請 9/13、9/14・中秋</div></div>
+    <div class="win"><div class="d">9/15（三）→ 9/19（日）</div><div class="l">玩 5 天・請 9/16、9/17・中秋</div></div>
+    <div class="win"><div class="d">9/24（五）→ 9/28（二）</div><div class="l">玩 5 天・請 9/24、9/27・教師節</div></div>
+    <div class="win"><div class="d">9/25（六）→ 9/29（三）</div><div class="l">玩 5 天・請 9/27、9/29・教師節</div></div>
+    <div class="win"><div class="d">10/7（四）→ 10/11（一）</div><div class="l">玩 5 天・請 10/7、10/8・國慶</div></div>
+    <div class="win"><div class="d">10/8（五）→ 10/12（二）</div><div class="l">玩 5 天・請 10/8、10/12・國慶</div></div>
+    <div class="win"><div class="d">10/9（六）→ 10/13（三）</div><div class="l">玩 5 天・請 10/12、10/13・國慶</div></div>
+    <div class="win"><div class="d">10/21（四）→ 10/25（一）</div><div class="l">玩 5 天・請 10/21、10/22・光復節</div></div>
+    <div class="win"><div class="d">10/22（五）→ 10/26（二）</div><div class="l">玩 5 天・請 10/22、10/26・光復節</div></div>
+    <div class="win"><div class="d">10/23（六）→ 10/27（三）</div><div class="l">玩 5 天・請 10/26、10/27・光復節</div></div>
   </div>
-  <h3>一般週（請 3 天）</h3>
-  <p style="margin:4px 0">只要 5 天裡包含一個週末，就是請 3 天。可以選週三、四、五或六出發，例如：三→日、四→一、五→二、六→三。週一到週五連請的組合一律排除。</p>
+  <p style="margin:6px 0 4px">另外，一般週只要「玩 4 天且包含週末」都只請 2 天：四→日、五→一、六→二（例如 5/6–5/9、5/7–5/10、5/8–5/11）。</p>
+  <h3>請 3 天</h3>
+  <div class="grid">
+    <div class="win one"><div class="d">4/24（六）→ 4/28（三）</div><div class="l">玩 5 天・請 4/26、4/27、4/28・星宇東京 14,908</div></div>
+    <div class="win one"><div class="d">6/9（三）→ 6/14（一）</div><div class="l">玩 6 天・請 6/10、6/11、6/14・華航大阪 15,153</div></div>
+    <div class="win one"><div class="d">6/6（日）→ 6/10（四）</div><div class="l">玩 5 天・請 6/7、6/8、6/10・華航福岡 13,223</div></div>
+    <div class="win one"><div class="d">5/21（五）→ 5/25（二）</div><div class="l">玩 5 天・請 5/21、5/24、5/25・華航沖繩 11,337</div></div>
+  </div>
+  <p style="margin:6px 0 4px">一般週玩 5 天（包含一個週末）請 3 天：三→日、四→一、五→二、六→三、日→四；玩 4 天的三→六、日→三也是請 3 天。</p>
+  <h3>請 4 天</h3>
+  <div class="grid">
+    <div class="win one"><div class="d">2/13（六）→ 2/18（四）</div><div class="l">玩 6 天・請 2/15–2/18・樂桃沖繩 ≈7,490</div></div>
+    <div class="win one"><div class="d">3/3（三）→ 3/8（一）</div><div class="l">玩 6 天・請 3/3、3/4、3/5、3/8・亞航大阪 ≈10,600</div></div>
+    <div class="win one"><div class="d">3/1（一）→ 3/5（五）</div><div class="l">玩 5 天・請 3/2–3/5・亞航福岡 ≈11,904</div></div>
+    <div class="win one"><div class="d">6/17（四）→ 6/22（二）</div><div class="l">玩 6 天・請 6/17、6/18、6/21、6/22・華航東京 14,894</div></div>
+  </div>
+  <p style="margin:6px 0 4px">一般週玩 6 天（包含一個週末）請 4 天；玩 4 天全落在平日（例如二→五）也是請 4 天。週一出發週五回（玩 5 天）、週一到週六或週日到週五（玩 6 天）都要請 5 天，一律排除。</p>
 </div>
 
 <!-- 互動版：.card 的 data-tab（overview/prices/trend/promo/leave/info）決定分頁；下方 <script> 由表格自動產生分頁、目的地卡、篩選與趨勢圖，每日更新時整段保留不要改。 -->
 <footer>所有價格都是查詢時價格，實際以各航空訂票頁為準。本頁每天由排程任務自動更新。</footer>
 <footer style="margin-top:4px">完整版（需登入 Claude）：https://claude.ai/artifact/GnK4JjZSrefEVotecoMzQn</footer>
 </div>
+
 <script>
 /* 互動版腳本：讀取頁面上原本的表格（rt-best／rt-log／rt-promo）自動產生分頁、目的地卡、篩選與趨勢圖。
    每日更新只要維持表格的 class 與 data-label、各區塊 .card 的 data-tab，就不需要改這段腳本。 */
@@ -349,6 +377,7 @@
   function num(s){ var m=(s||'').replace(/\s/g,'').match(/\d{1,3}(?:,\d{3})+|\d{4,}/); return m?parseInt(m[0].replace(/,/g,''),10):null; }
   function cell(tr,label){ return $$('td',tr).filter(function(td){return td.getAttribute('data-label')===label})[0]; }
   function leaveN(tr){ var td=cell(tr,'請假'); var m=td&&td.textContent.match(/請\s*(\d)\s*天/); return m?+m[1]:null; }
+  function daysN(tr){ var td=cell(tr,'天數')||cell(tr,'日期'); var m=td&&td.textContent.match(/(\d)\s*天/); return m?+m[1]:null; }
   function firstLine(td){ var s=''; for(var n=td.firstChild;n;n=n.nextSibling){ if(n.nodeName==='BR') break; s+=n.textContent; } return s.trim(); }
 
   /* ---------- 價格卡片 ---------- */
@@ -365,7 +394,7 @@
       tg.appendChild(b); tr.appendChild(tg);
       var d=$('td.dest',tr), tot=$('td.total',tr), air=$('td.air',tr), dt=cell(tr,'日期');
       bestRows.push({tr:tr,table:tb,idx:i,dest:d?d.textContent.trim():'',price:tot?num(tot.textContent):null,ref:tot?/參考/.test(tot.textContent):false,
-        approx:tot?/≈|約|估/.test(tot.textContent):false,air:air?air.textContent.trim():'',date:dt?dt.textContent.trim():'',leave:leaveN(tr),cheap:tot?tot.textContent.trim():''});
+        approx:tot?/≈|約|估/.test(tot.textContent):false,air:air?air.textContent.trim():'',date:dt?dt.textContent.trim():'',leave:leaveN(tr),days:daysN(tr),cheap:tot?tot.textContent.trim():''});
     });
   });
 
@@ -399,7 +428,7 @@
   var g=$('#dgrid',ov);
   picks.forEach(function(r,i){
     var t=document.createElement('button'); t.type='button'; t.className='dtile'+(i===0&&!r.ref?' top':'');
-    var lv=r.leave?'<span class="tag '+(r.leave<=2?'t-best':'t-other')+'">請 '+r.leave+' 天</span>':'';
+    var lv=(r.days?'<span class="tag t-fsc">玩 '+r.days+' 天</span>':'')+(r.leave!=null?'<span class="tag '+(r.leave<=2?'t-best':'t-other')+'">請 '+r.leave+' 天</span>':'');
     t.innerHTML='<span class="n">'+r.dest+(i===0&&!r.ref?' <span class="tag t-best">最便宜</span>':'')+'</span>'+
       '<span class="p'+(r.ref?' ref':'')+'">'+(r.ref?'參考 ':'')+(r.price?(r.approx?'≈ ':'')+'NT$'+r.price.toLocaleString():r.cheap)+'</span>'+
       chgHTML(change(r.dest))+'<span class="m">'+r.air+'<br>'+r.date.replace(/^20\d\d\//,'')+'</span><span class="row">'+lv+'</span>';
@@ -416,7 +445,9 @@
   }
 
   /* ---------- 價格篩選 ---------- */
-  var F={dest:'all',leave:'all',sort:'def'};
+  var F={dest:'all',leave:'all',days:'all',sort:'def'};
+  function uniq(k){ var s={}; bestRows.forEach(function(r){ if(r[k]!=null) s[r[k]]=1; }); return Object.keys(s).map(Number).sort(function(a,b){return a-b}); }
+  var leaveOpts=uniq('leave'), dayOpts=uniq('days');
   var priceCards=$$('.card[data-tab="prices"]');
   var bar=document.createElement('div'); bar.className='fbar';
   function grp(key,label,opts){
@@ -425,7 +456,8 @@
     return s;
   }
   bar.innerHTML=grp('dest','目的地',[['all','全部']].concat(order.map(function(d){return [d,d]})))+'<span class="sp"></span>'+
-    grp('leave','請假',[['all','不限'],['1','請 1 天'],['2','請 2 天'],['3','請 3 天']])+'<span class="sp"></span>'+
+    grp('leave','請假',[['all','不限']].concat(leaveOpts.map(function(n){return [String(n),'請 '+n+' 天']})))+'<span class="sp"></span>'+
+    (dayOpts.length>1?grp('days','天數',[['all','不限']].concat(dayOpts.map(function(n){return [String(n),'玩 '+n+' 天']})))+'<span class="sp"></span>':'')+
     grp('sort','排序',[['def','預設'],['price','價格低到高'],['leave','請假少優先']]);
   bar.addEventListener('click',function(e){ var b=e.target.closest('button'); if(b) setFilter(b.dataset.k,b.dataset.v); });
   var emptyMsg=document.createElement('p'); emptyMsg.className='empty'; emptyMsg.hidden=true; emptyMsg.textContent='沒有符合條件的日期，換個請假天數或目的地看看。';
@@ -436,7 +468,7 @@
   function applyF(){
     var vis=0;
     bestRows.forEach(function(r){
-      var ok=(F.dest==='all'||r.dest===F.dest)&&(F.leave==='all'||String(r.leave)===F.leave);
+      var ok=(F.dest==='all'||r.dest===F.dest)&&(F.leave==='all'||String(r.leave)===F.leave)&&(F.days==='all'||String(r.days)===F.days);
       r.tr.hidden=!ok; if(ok) vis++;
     });
     $$('table.rt-best').forEach(function(tb){
