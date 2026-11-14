@@ -1,0 +1,277 @@
+[
+ {
+  "date": "2026-11-14",
+  "cells": {
+   "東京": {
+    "v": 10910,
+    "approx": true,
+    "note": "虎航 6/17–6/22 持平"
+   },
+   "大阪": {
+    "v": 10137,
+    "approx": true,
+    "note": "樂桃 3/3–3/8 ↑6"
+   },
+   "名古屋": {
+    "v": 10810,
+    "approx": true,
+    "note": "虎航 6/17–6/22 ↑600 🔥"
+   },
+   "福岡": {
+    "v": 13233,
+    "approx": false,
+    "note": "華航 6/6–6/10 ↑10"
+   },
+   "熊本": {
+    "v": 12282,
+    "approx": false,
+    "note": "華航 6/6–6/10 持平"
+   },
+   "廣島": {
+    "v": null,
+    "approx": false,
+    "note": "無符合方案（參考 13,694）"
+   },
+   "鹿兒島": {
+    "v": 12675,
+    "approx": false,
+    "note": "華航 5/18–5/22 持平"
+   },
+   "沖繩": {
+    "v": 7490,
+    "approx": true,
+    "note": "樂桃 2/20–2/25 持平 🔥"
+   },
+   "北海道": {
+    "v": 13111,
+    "approx": true,
+    "note": "虎航 4/16–4/19 持平"
+   },
+   "仙台": {
+    "v": 16671,
+    "approx": false,
+    "note": "星宇 3/13–3/17（首筆）"
+   }
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "cells": {
+   "東京": {
+    "v": 10910,
+    "approx": true,
+    "note": "虎航 6/17–6/22"
+   },
+   "大阪": {
+    "v": 10131,
+    "approx": true,
+    "note": "樂桃 3/3–3/8"
+   },
+   "名古屋": {
+    "v": 10210,
+    "approx": true,
+    "note": "虎航 6/17–6/22 🔥"
+   },
+   "福岡": {
+    "v": 13223,
+    "approx": false,
+    "note": "華航 6/6–6/10"
+   },
+   "熊本": {
+    "v": 12282,
+    "approx": false,
+    "note": "華航 6/6–6/10"
+   },
+   "廣島": {
+    "v": null,
+    "approx": false,
+    "note": "無符合方案（參考 13,694）"
+   },
+   "鹿兒島": {
+    "v": 12675,
+    "approx": false,
+    "note": "華航 5/18–5/22"
+   },
+   "沖繩": {
+    "v": 7490,
+    "approx": true,
+    "note": "樂桃 2/13–2/18 🔥"
+   },
+   "北海道": {
+    "v": 13111,
+    "approx": true,
+    "note": "虎航・請 2 天"
+   },
+   "仙台": {
+    "v": null,
+    "approx": false,
+    "note": "無 4～6 天票價（參考 16,088）"
+   }
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "cells": {
+   "東京": {
+    "v": 10700,
+    "approx": true,
+    "note": "虎航（估）"
+   },
+   "大阪": {
+    "v": 15326,
+    "approx": false,
+    "note": "長榮 持平"
+   },
+   "名古屋": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "福岡": {
+    "v": 14151,
+    "approx": false,
+    "note": "長榮 ↑133"
+   },
+   "熊本": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "廣島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "鹿兒島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "沖繩": {
+    "v": 11965,
+    "approx": false,
+    "note": "長榮 持平"
+   },
+   "北海道": {
+    "v": 29858,
+    "approx": false,
+    "note": "日航松山 ↑8,696"
+   },
+   "仙台": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   }
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "cells": {
+   "東京": {
+    "v": 10700,
+    "approx": true,
+    "note": "虎航（估）"
+   },
+   "大阪": {
+    "v": 15326,
+    "approx": false,
+    "note": "長榮 ↓331"
+   },
+   "名古屋": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "福岡": {
+    "v": 14018,
+    "approx": false,
+    "note": "長榮"
+   },
+   "熊本": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "廣島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "鹿兒島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "沖繩": {
+    "v": 11965,
+    "approx": false,
+    "note": "長榮（請 3 天）"
+   },
+   "北海道": {
+    "v": 21162,
+    "approx": false,
+    "note": "日航（沿用）"
+   },
+   "仙台": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   }
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "cells": {
+   "東京": {
+    "v": 10700,
+    "approx": true,
+    "note": "虎航（估）"
+   },
+   "大阪": {
+    "v": 15657,
+    "approx": false,
+    "note": "長榮"
+   },
+   "名古屋": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "福岡": {
+    "v": 14018,
+    "approx": false,
+    "note": "長榮"
+   },
+   "熊本": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "廣島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "鹿兒島": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   },
+   "沖繩": {
+    "v": 11965,
+    "approx": false,
+    "note": "長榮"
+   },
+   "北海道": {
+    "v": 21162,
+    "approx": false,
+    "note": "日航"
+   },
+   "仙台": {
+    "v": null,
+    "approx": false,
+    "note": ""
+   }
+  }
+ }
+]
