@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-15 08:10",
- "subNote": "Google Flights 精簡工具查 10 筆，第 10 筆（仙台）被暫時擋下",
- "takeaway": "大阪、名古屋、福岡、沖繩、北海道的 Google 價格和昨天完全相同；名古屋華航今天 Google 有列出 13,126。鹿兒島找到只請 2 天的 5/29（六）–6/1（二）華航 12,680，比昨天第 1 名便宜 5 元。熊本第 1 名仍是華航 12,285。東京、仙台今天沒查到（東京無結果、仙台被 Google 擋下），沿用昨天價格。長榮旅展今天 11/15 截止，華航到 11/21，星宇到 11/23。",
- "caveat": "⚠️ 大阪、名古屋、福岡、沖繩、北海道的票價是 Google Flights（2026-11-15 約 08:00）的來回價，Google 配的是「該航空最便宜的回程」，不一定是 12:00 後那一班；表中寫的回程班次要自己在訂票時選，價格可能略有差異。東京、仙台沿用 11/14 Google 價格（今天未重查）。熊本、鹿兒島、廣島用華航官網低價頁（過去 48 小時其他旅客查到的價格，未指定班次）。廉航行李費是估算。都是查詢時價格，實際以訂票頁為準。",
+ "updated": "2026-11-16 08:20",
+ "subNote": "Google Flights 精簡工具查 7 筆，第 7 筆（北海道）被暫時擋下",
+ "takeaway": "名古屋虎航 8,910、沖繩樂桃 5,590 價格與前次相同，但 Google 仍判定「偏低」（名古屋比平常便宜 $3,010、沖繩 $2,610）。大阪三家廉航各便宜 2 元，其他 Google 有查到的（東京、福岡、仙台）價格幾乎不變。熊本、鹿兒島前次的最低日期今天已不在華航低價頁，改成 6/3–6/7 熊本 12,293、6/1–6/5 鹿兒島 12,688（各漲 8 元）。北海道今天被 Google 擋下，沿用 11/15 價格。華航旅展到 11/21、星宇到 11/23。",
+ "caveat": "⚠️ 東京、大阪、名古屋、福岡、沖繩、仙台的票價是 Google Flights（2026-11-16 約 08:00）的來回價，Google 配的是「該航空最便宜的回程」，不一定是 12:00 後那一班；表中寫的回程班次要自己在訂票時選，價格可能略有差異。北海道沿用 11/15 Google 價格（今天未重查）。熊本、鹿兒島、廣島用華航官網低價頁（過去 48 小時其他旅客查到的價格，未指定班次）。廉航行李費是估算。都是查詢時價格，實際以訂票頁為準。",
  "bestIntro": "只列符合「玩 4～6 天、請假 ≤4 天、回程日本 12:00 後起飛、含託運行李」的實際日期票價，依含行李總價由低到高（同價時請假少的優先）。廣島目前沒有符合條件的方案，列一筆參考價；仙台只找到 2 個符合的方案。華航、長榮、星宇、國泰經濟艙一般含託運行李，但最低票種不一定含，請在訂票頁確認。廉航價格已加上來回 20kg 行李費（估算）。標 <span class=\"tag t-warn\">🔥 降價</span> 的是今天觸發降價警報的方案。",
  "dests": [
   {
@@ -19,7 +19,7 @@
      "bag": 1900,
      "bagText": "約 1,900（估，950/段）",
      "approx": true,
-     "note": "<b>沿用 11/14</b>（今天 Google Flights 東京沒有載入結果，未重查）。Google Flights（2026-11-14）來回價，與昨天相同。訂票時選回程 20:45 班次，價格可能略有差異（6/22 單程 4,810）。Google 單程查詢顯示虎航成田回程是 20:45，昨天攜程寫的 18:25 有誤。虎航羽田 8,615 的回程是清晨 05:25，已排除",
+     "note": "Google Flights（2026-11-16）來回價，與前次相同。訂票時選回程 20:45 班次，價格可能略有差異（6/22 單程 4,810，11/14 Google 單程）。同一筆查詢有虎航 00:10 桃園→羽田 8,915，但虎航羽田回程是 05:25，沒列入",
      "gfLow": null
     },
     {
@@ -33,7 +33,7 @@
      "bag": 1880,
      "bagText": "約 1,880（估，940/段）",
      "approx": true,
-     "note": "<b>沿用 11/14</b>（今天 Google Flights 東京沒有載入結果，未重查）。Google Flights（2026-11-14）來回價。6/22 酷航兩班回程都在 12:00 後（Google 單程：12:30 是 4,969、21:15 是 5,546），選 12:30 價格最接近",
+     "note": "Google Flights（2026-11-16）來回價。6/22 酷航兩班回程都在 12:00 後（11/14 Google 單程：12:30 是 4,969、21:15 是 5,546），選 12:30 價格最接近",
      "gfLow": null
     },
     {
@@ -47,7 +47,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "<b>沿用 11/14</b>（今天 Google Flights 東京沒有載入結果，未重查）。Google Flights（2026-11-14）來回價；6/22 國泰成田回程只有 15:45 一班（Google 單程）。同日星宇 14,902（回程 14:10 或 20:40）",
+     "note": "Google Flights（2026-11-16）來回價；6/22 國泰成田回程只有 15:45 一班（11/14 Google 單程）。同日星宇 14,902（回程 14:10 或 20:40）",
      "gfLow": null
     }
    ]
@@ -62,11 +62,11 @@
      "ret": "2027-03-08",
      "flights": "去 18:50→22:20 桃園→關西<br>回 MM027 15:25→17:55 關西→桃園",
      "retDep": "15:25",
-     "fare": 8237,
+     "fare": 8235,
      "bag": 1900,
      "bagText": "約 1,900（估，約 930–1,000/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價，與昨天相同。訂票時選回程 MM027 15:25 班次，價格可能略有差異；早班 MM023 07:15、MM025 10:10 不符合。班表為樂桃 2026 冬季（到 2027/3/27）",
+     "note": "Google Flights（2026-11-16）來回價（比前次少 2 元）。訂票時選回程 MM027 15:25 班次，價格可能略有差異；早班 MM023 07:15、MM025 10:10 不符合。班表為樂桃 2026 冬季（到 2027/3/27）",
      "gfLow": null
     },
     {
@@ -76,11 +76,11 @@
      "ret": "2027-03-08",
      "flights": "去 18:15→21:45 桃園→關西<br>回 GK055 14:55→17:15（或 GK057 23:00→01:30+1）關西→桃園",
      "retDep": "14:55",
-     "fare": 8370,
+     "fare": 8368,
      "bag": 1800,
      "bagText": "約 1,800（估，900/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價。回程時間沿用攜程時刻表（未標日期），捷星兩班都在 12:00 後；GK057 凌晨 01:30 才到台灣，建議選 GK055",
+     "note": "Google Flights（2026-11-16）來回價。回程時間沿用攜程時刻表（未標日期），捷星兩班都在 12:00 後；GK057 凌晨 01:30 才到台灣，建議選 GK055。同日捷星 02:30 去程 8,708",
      "gfLow": null
     },
     {
@@ -90,11 +90,11 @@
      "ret": "2027-03-08",
      "flights": "去 14:40→17:55 桃園→關西<br>回 IT213 18:55→21:20 關西→桃園",
      "retDep": "18:55",
-     "fare": 8926,
+     "fare": 8924,
      "bag": 1900,
      "bagText": "約 1,900（估，950/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價。訂票時選回程 IT213 18:55 班次，價格可能略有差異；IT211 11:30 不符合。下一名：亞洲航空 9,216＋行李約 2,700＝約 11,916（回程 AK177 20:55）",
+     "note": "Google Flights（2026-11-16）來回價。訂票時選回程 IT213 18:55 班次，價格可能略有差異；IT211 11:30 不符合。下一名：亞洲航空 9,956（今天）＋行李約 2,700（回程 AK177 20:55）",
      "gfLow": null
     }
    ]
@@ -113,7 +113,7 @@
      "bag": 1900,
      "bagText": "約 1,900（估，950/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價；Google 分析：票價偏低，比平常便宜 $3,010。與昨天相同。6/22 虎航回程只有 13:45 這一班（11/13 Google 單程確認），符合條件",
+     "note": "Google Flights（2026-11-16）來回價；Google 分析：票價偏低，比平常便宜 $3,010。與前次相同。6/22 虎航回程只有 13:45 這一班（11/13 Google 單程確認），符合條件",
      "gfLow": 3010
     },
     {
@@ -127,7 +127,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價（中華航空／日航共掛）。華航 6/22 回程有 09:55 與 12:20 兩班（11/13 Google 單程），要選 12:20，Google 配的可能是 09:55 早班，價格可能略有差異",
+     "note": "Google Flights（2026-11-16）來回價（中華航空／日航共掛）。華航 6/22 回程有 09:55 與 12:20 兩班（11/13 Google 單程），要選 12:20，Google 配的可能是 09:55 早班，價格可能略有差異",
      "gfLow": null
     },
     {
@@ -141,7 +141,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價；6/22 星宇回程只有 19:55 一班（11/13 Google 單程確認）",
+     "note": "Google Flights（2026-11-16）來回價；6/22 星宇回程只有 19:55 一班（11/13 Google 單程確認）。國泰 15,010（回程 16:40）",
      "gfLow": null
     }
    ]
@@ -160,7 +160,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "含端午 6/9。Google Flights（2026-11-15）來回價。訂票時選回程 19:10 或 21:00 班次，價格可能略有差異（6/10 單程 11,348，比 11:00 早班的 8,259 貴，實際可能較高）；早班 11:00 不符合",
+     "note": "含端午 6/9。Google Flights（2026-11-16）來回價。訂票時選回程 19:10 或 21:00 班次，價格可能略有差異（11/14 單程 11,348，比 11:00 早班的 8,259 貴，實際可能較高）；早班 11:00 不符合",
      "gfLow": null
     },
     {
@@ -170,11 +170,11 @@
      "ret": "2027-06-10",
      "flights": "去 12:00→15:20 桃園→福岡<br>回 16:20→17:50 福岡→桃園",
      "retDep": "16:20",
-     "fare": 11504,
+     "fare": 11501,
      "bag": 2696,
      "bagText": "約 2,700（估，1,348/段，偏保守）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價。6/10 亞航回程只有 16:20 一班（Google 單程 5,564），符合條件",
+     "note": "Google Flights（2026-11-16）來回價。6/10 亞航回程只有 16:20 一班（11/14 Google 單程 5,564），符合條件",
      "gfLow": null
     },
     {
@@ -184,11 +184,11 @@
      "ret": "2027-06-10",
      "flights": "去 15:10→18:20 桃園→福岡<br>回 12:20→13:45 或 19:20→20:45 福岡→桃園",
      "retDep": "12:20",
-     "fare": 14278,
+     "fare": 14275,
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價。6/10 長榮兩班回程都在 12:00 後、單程同價 10,236。下一名：台灣虎航 13,363＋行李約 1,900＝約 15,263（回程 18:55）",
+     "note": "Google Flights（2026-11-16）來回價。6/10 長榮兩班回程都在 12:00 後（12:20、19:20）。下一名：台灣虎航 13,360＋行李約 1,900＝約 15,260（回程 18:55）",
      "gfLow": null
     }
    ]
@@ -199,25 +199,13 @@
     {
      "air": "中華航空",
      "kind": "fsc",
-     "out": "2027-06-17",
-     "ret": "2027-06-22",
+     "out": "2027-06-03",
+     "ret": "2027-06-07",
      "flights": "去程班次未指定（以訂票頁為準）<br>回 CI195 18:35→20:10 熊本→桃園",
      "retDep": "18:35",
-     "fare": 12285,
+     "fare": 12293,
      "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 1 天前。回程時間取自攜程時刻表（未標日期），華航熊本回程只有這一班；Google Flights 熊本連續三天沒有載入結果",
-     "gfLow": null
-    },
-    {
-     "air": "中華航空",
-     "kind": "fsc",
-     "out": "2027-05-18",
-     "ret": "2027-05-21",
-     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI195 18:35→20:10 熊本→桃園",
-     "retDep": "18:35",
-     "fare": 12285,
-     "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 1 天前",
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 1 天前。回程時間取自攜程時刻表（未標日期），華航熊本回程只有這一班。前次的 6/17–6/22、5/18–5/21（12,285）今天頁面上沒有出現；Google Flights 熊本今天因被擋未查",
      "gfLow": null
     },
     {
@@ -229,7 +217,19 @@
      "retDep": "18:35",
      "fare": 12293,
      "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 7 小時前。昨天的 6/6–6/10、6/6–6/11（12,282）今天頁面上沒有出現",
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 1 天前。",
+     "gfLow": null
+    },
+    {
+     "air": "中華航空",
+     "kind": "fsc",
+     "out": "2027-11-03",
+     "ret": "2027-11-07",
+     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI195 18:35→20:10 熊本→桃園",
+     "retDep": "18:35",
+     "fare": 13168,
+     "bag": 0,
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 14 小時前。另 8/8–8/13、9/26–10/1（13,553）要請 5 天，排除",
      "gfLow": null
     }
    ]
@@ -240,15 +240,15 @@
     {
      "air": "中華航空",
      "kind": "fsc",
-     "out": "2027-06-18",
-     "ret": "2027-06-22",
+     "out": "2027-05-15",
+     "ret": "2027-05-19",
      "flights": "去程班次未指定<br>回 CI113 11:25→13:25 廣島→桃園",
      "retDep": "11:25",
-     "fare": 13699,
+     "fare": 13707,
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "<b>沒有符合條件的方案</b>：廣島只有華航直飛，回程 CI113 11:25 起飛（攜程時刻表），早於 12:00。價格是華航官網低價頁（11/15 讀取，1 天前）；6/15–6/18、6/16–6/20 也是 13,699。Google Flights 廣島連續三天沒有載入結果",
+     "note": "<b>沒有符合條件的方案</b>：廣島只有華航直飛，回程 CI113 11:25 起飛（攜程時刻表），早於 12:00。價格是華航官網低價頁（11/16 讀取，21 小時前）；6/22–6/26、6/22–6/27 也是 13,707（比前次 13,699 多 8 元）。Google Flights 廣島今天因被擋未查",
      "gfLow": null,
      "ref": true,
      "dateText": null
@@ -261,37 +261,37 @@
     {
      "air": "中華航空",
      "kind": "fsc",
-     "out": "2027-05-29",
-     "ret": "2027-06-01",
-     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI119 12:25→13:55 鹿兒島→桃園",
-     "retDep": "12:25",
-     "fare": 12680,
-     "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，顯示 1 天前，未指定班次）。回程時間取自 Trip.com 航班動態；華航鹿兒島目前只有週二、四、六飛，2027 夏季班表未公告，訂票前請確認有班。Google 今天這條只列出捷星轉機 19,763",
-     "gfLow": null
-    },
-    {
-     "air": "中華航空",
-     "kind": "fsc",
-     "out": "2027-05-18",
-     "ret": "2027-05-22",
-     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI119 12:25→13:55 鹿兒島→桃園",
-     "retDep": "12:25",
-     "fare": 12680,
-     "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，顯示 1 天前，未指定班次）",
-     "gfLow": null
-    },
-    {
-     "air": "中華航空",
-     "kind": "fsc",
      "out": "2027-06-01",
      "ret": "2027-06-05",
      "flights": "去程班次未指定（以訂票頁為準）<br>回 CI119 12:25→13:55 鹿兒島→桃園",
      "retDep": "12:25",
-     "fare": 12680,
+     "fare": 12688,
      "bag": 0,
-     "note": "華航官網低價頁（11/15 讀取，顯示 1 天前，未指定班次）。6/22–6/26（請 4 天）12,688",
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 17 小時前。回程時間取自 Trip.com 航班動態；華航鹿兒島目前只有週二、四、六飛，2027 夏季班表未公告，訂票前請確認有班。前次的 5/29–6/1、5/18–5/22（12,680）今天頁面上沒有出現",
+     "gfLow": null
+    },
+    {
+     "air": "中華航空",
+     "kind": "fsc",
+     "out": "2027-06-22",
+     "ret": "2027-06-26",
+     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI119 12:25→13:55 鹿兒島→桃園",
+     "retDep": "12:25",
+     "fare": 12688,
+     "bag": 0,
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 1 天前。",
+     "gfLow": null
+    },
+    {
+     "air": "中華航空",
+     "kind": "fsc",
+     "out": "2027-05-15",
+     "ret": "2027-05-18",
+     "flights": "去程班次未指定（以訂票頁為準）<br>回 CI119 12:25→13:55 鹿兒島→桃園",
+     "retDep": "12:25",
+     "fare": 13098,
+     "bag": 0,
+     "note": "華航官網低價頁（11/16 讀取，過去 48 小時其他旅客查到的價格，未指定班次），顯示 17 小時前。只請 2 天；5/22–5/25 也是 13,098",
      "gfLow": null
     }
    ]
@@ -310,7 +310,7 @@
      "bag": 1900,
      "bagText": "約 1,900（估，約 930–1,000/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價；Google 分析：票價偏低，比平常便宜 $2,610。2/25 單程 13:35 與早班 08:15 同價 3,103，選 13:35 價格應相同（另有 16:50 班次）；早班 08:15 不符合",
+     "note": "Google Flights（2026-11-16）來回價；Google 分析：票價偏低，比平常便宜 $2,610。與前次相同。2/25 樂桃回程 13:35、16:50 都符合（11/14 Google 單程），早班 08:15 不符合",
      "gfLow": 2610
     },
     {
@@ -324,7 +324,7 @@
      "bag": 1900,
      "bagText": "約 1,900（估，950/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價。2/25 虎航 18:40 與 09:45 單程同價 3,836，選 18:40 價格應相同；早班 09:45 不符合",
+     "note": "Google Flights（2026-11-16）來回價。2/25 虎航 18:40 與 09:45 單程同價（11/14），選 18:40 價格應相同；早班 09:45 不符合",
      "gfLow": null
     },
     {
@@ -338,7 +338,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價；星宇那霸回程每天只有 15:25 一班。華航來回 10,343 看起來較低，但 Google 配的應是 11:55 回程（單程 8,650），改選 20:25（單程 9,947）約貴 1,300，實際約 11,640，所以排在星宇後面",
+     "note": "Google Flights（2026-11-16）來回價；星宇那霸回程每天只有 15:25 一班。華航來回 10,343 看起來較低，但 Google 配的應是 11:55 回程，改選 20:25 約貴 1,300，實際約 11,640",
      "gfLow": null
     }
    ]
@@ -357,7 +357,7 @@
      "bag": 1900,
      "bagText": "約 1,900（估，950/段）",
      "approx": true,
-     "note": "Google Flights（2026-11-15）來回價，與昨天相同。4/19 虎航回程只有 12:05 一班（Google 單程 6,002 確認），只比 12:00 晚 5 分鐘，訂票時再確認",
+     "note": "<b>沿用 11/15</b>（今天 Google Flights 查到北海道時被暫時擋下，未重查）。Google Flights（2026-11-15）來回價。4/19 虎航回程只有 12:05 一班（Google 單程 6,002 確認），只比 12:00 晚 5 分鐘，訂票時再確認",
      "gfLow": null
     },
     {
@@ -371,7 +371,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價；星宇札幌每天一班",
+     "note": "<b>沿用 11/15</b>（今天 Google Flights 查到北海道時被暫時擋下，未重查）。Google Flights（2026-11-15）來回價；星宇札幌每天一班",
      "gfLow": null
     },
     {
@@ -385,7 +385,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "Google Flights（2026-11-15）來回價；4/19 華航直飛回程只有 15:05 一班。長榮 24,298（回程 16:15）",
+     "note": "<b>沿用 11/15</b>（今天 Google Flights 查到北海道時被暫時擋下，未重查）。Google Flights（2026-11-15）來回價；4/19 華航直飛回程只有 15:05 一班。長榮 24,298（回程 16:15）。華航官網低價頁今天 4～6 天都是 20,857（5/16–5/21、5/19–5/23、6/16–6/21 等），與 Google 相同",
      "gfLow": null
     }
    ]
@@ -404,7 +404,7 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "<b>沿用 11/14</b>（今天 Google Flights 在查仙台時被暫時擋下，未重查）。Google Flights（2026-11-14）來回價；第一次查到仙台 4～6 天的實際票價。3/17 星宇回程只有 17:25 一班（Google 單程）",
+     "note": "Google Flights（2026-11-16）來回價，與前次相同。3/17 星宇回程只有 17:25 一班（11/14 Google 單程）",
      "gfLow": null
     },
     {
@@ -418,23 +418,25 @@
      "bag": 0,
      "bagText": "一般已含（請確認）",
      "approx": false,
-     "note": "<b>沿用 11/14</b>（今天 Google Flights 在查仙台時被暫時擋下，未重查）。Google Flights（2026-11-14）來回價；3/17 長榮回程只有 16:15 一班（Google 單程）。<b>仙台只找到 2 個符合的方案</b>：這天 Google 沒有列出虎航直飛，其餘都是轉機",
+     "note": "Google Flights（2026-11-16）來回價；3/17 長榮回程只有 16:15 一班（11/14 Google 單程）。<b>仙台只找到 2 個符合的方案</b>：Google 沒有列出虎航直飛，其餘都是轉機（香港快運 13,427 轉機、隔天才到）",
      "gfLow": null
     }
    ]
   }
  ],
  "refList": [
+  "東京：台灣虎航 6/17 00:10 桃園→羽田 來回 8,915（Google 11/16），但虎航羽田回程是 05:25 起飛，Google 配的回程不確定，<b>回程時間未確認</b>，不列入。",
   "東京：捷星日本 6/17–6/22 來回 11,524（去 02:40→07:00），加行李約 1,800 後約 13,324；6/22 回程 22:40 起飛、凌晨 01:30 才到台灣，所以沒列入前三名。",
   "名古屋：香港快運 13,533 要轉機。國泰 6/22 回程 16:40 起飛（11/13 單程 9,598），來回價沒查到。",
   "福岡：宿霧太平洋 6/6–6/10 來回 10,557（轉機 1 次，去 03:15→19:00），<b>回程時間未確認</b>。",
   "沖繩：泰國亞洲航空 2/20–2/25 來回 8,923（去 13:30→15:55，回程 16:55 符合），加行李約 2,700 後約 11,619；泰越捷 2/25 回程 18:10 單程 3,017，但來回沒有列出。",
   "北海道：Greater Bay Airlines 4/16–4/19 來回 15,358、大韓航空 18,499，都要轉機。",
-  "仙台：香港快運 3/13–3/17 來回 13,430（轉機，回程 15:00 起飛、隔天才到台灣），行李另計。台灣虎航有直飛（KAYAK：回 19:40→23:00），但 2027 年票價這次沒查到。",
   "熊本：星宇官網 10,941 起，但都是 9 天以上的行程，而且回程 JX847 11:45 起飛不符合條件。",
   "鹿兒島：捷星日本 5/18–5/22 來回 19,763（轉機 1 次）。",
   "已排除（回程在 12:00 前）：虎航羽田（05:25）、華航成田 09:35、虎航福岡 10:25、華航福岡 11:00、華航廣島 CI113（11:25）、星宇熊本 JX847（11:45）、樂桃關西 MM023／MM025、虎航關西 IT211（11:30）、華航名古屋 09:55、樂桃那霸 08:15、虎航那霸 09:45、華航那霸 11:55、長榮那霸 10:15；以及請 5 天、玩 7 天以上的日期。",
-  "大阪：泰國獅航 3/3–3/8 來回 8,760（去 09:00→12:20，Google 11/15），<b>回程時間未確認</b>。"
+  "大阪：泰國獅航 3/3–3/8 來回 8,758（去 09:00→12:20，Google 11/16），<b>回程時間未確認</b>。",
+  "仙台：香港快運 3/13–3/17 來回 13,427（轉機，回程 15:00 起飛、隔天才到台灣），行李另計。台灣虎航有直飛（KAYAK：回 19:40→23:00），但 2027 年票價這次沒查到。",
+  "熊本：華航 5/30–6/4 12,293、8/8–8/13 13,553 都要請 5 天，排除。"
  ],
  "promos": [
   {
@@ -547,16 +549,17 @@
  ],
  "baggageNote": "來回兩段大約多 NT$1,600–2,700。資料取自 Trip.com 日本廉航攻略（2026/6/8）與比價文章，各航空官網費用表都讀不到金額，實際以結帳頁為準。",
  "gaps": [
-  "<b>查價方式：</b>Google Flights 精簡工具查 10 筆來回，第 10 筆（仙台）印出 BLOCKED，依規則停止，沒有查任何回程單程。東京（TYO）、熊本、廣島沒有載入結果，鹿兒島只有轉機班次。改讀華航熊本、鹿兒島、廣島與星宇仙台官網低價頁（共 4 個網頁），另 1 次 WebSearch 查促銷。",
-  "<b>東京、仙台沿用 11/14 的 Google 價格</b>：東京今天 Google 沒有結果，仙台被擋；星宇仙台官網低價頁只有 12 天以上或 30 天的長天數價格（16,226 起），沒有 4～6 天可比。📈 今天這兩欄的數字是沿用值。",
-  "<b>回程班次：</b>今天沒有新的單程查詢，全部沿用 returns.json 已確認的班次（同航空同日期）；熊本、廣島沿用攜程時刻表、鹿兒島沿用 Trip.com 航班動態。名古屋華航今天 Google 來回價配的回程可能是 09:55 早班，選 12:20 價格可能略有差異。",
-  "<b>每個目的地只查了 1 個日期窗口</b>（熊本、鹿兒島、廣島看官網低價頁的多個日期），其他日期可能更便宜。",
+  "<b>查價方式：</b>Google Flights 精簡工具依序查仙台、東京、大阪、名古屋、福岡、沖繩、北海道 7 筆來回，第 7 筆（北海道）印出 BLOCKED，依規則停止，沒有查鹿兒島、熊本、廣島，也沒有查任何回程單程。改讀華航熊本、鹿兒島、廣島、札幌官網低價頁（共 4 個網頁），另 1 次 WebSearch 查促銷。",
+  "<b>北海道沿用 11/15 的 Google 價格</b>：今天被擋未重查；華航官網札幌 4～6 天 20,857，與 Google 相同。📈 今天北海道這欄是沿用值。",
+  "<b>回程班次：</b>今天沒有新的單程查詢，全部沿用 returns.json 已確認的班次（同航空同日期）；熊本、廣島沿用攜程時刻表、鹿兒島沿用 Trip.com 航班動態。名古屋華航 Google 來回價配的回程可能是 09:55 早班，選 12:20 價格可能略有差異。",
+  "<b>降價警報判斷：</b>名古屋、沖繩是因為 Google 分析「偏低」且比平常便宜 ≥ $2,000 而觸發（價格本身與前次相同，不是新的降價）。",
+  "<b>每個目的地只查了 1 個日期窗口</b>（熊本、鹿兒島、廣島、札幌看官網低價頁的多個日期），其他日期可能更便宜。",
   "<b>廣島</b>沒有符合條件的方案（只有華航直飛、回程 11:25）。<b>仙台</b>只有 2 個符合的方案。",
-  "<b>判斷：</b>今天排程內容是依 repo 的 docs/ROUTINE.md 新流程（改 data/*.json → tools/build.py 產生網頁）執行，網頁版面由程式產生，和排程文字中「手寫整頁 HTML」的做法不同。"
+  "<b>判斷：</b>依 repo 的 docs/ROUTINE.md 流程（改 data/*.json → tools/build.py 產生網頁）執行；分支用執行環境指定的開發分支。"
  ],
  "sources": [
-  "Google Flights（2026-11-15 查詢）：<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20TYO%20on%202027-06-17%20through%202027-06-22\">東京 6/17–6/22</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20KIX%20on%202027-03-03%20through%202027-03-08\">關西 3/3–3/8</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20NGO%20on%202027-06-17%20through%202027-06-22\">名古屋 6/17–6/22</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20FUK%20on%202027-06-06%20through%202027-06-10\">福岡 6/6–6/10</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20OKA%20on%202027-02-20%20through%202027-02-25\">那霸 2/20–2/25</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20CTS%20on%202027-04-16%20through%202027-04-19\">新千歲 4/16–4/19</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20SDJ%20on%202027-03-13%20through%202027-03-17\">仙台 3/13–3/17</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20KOJ%20on%202027-05-18%20through%202027-05-22\">鹿兒島 5/18–5/22</a>；回程單程：<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=One%20way%20flights%20from%20TYO%20to%20TPE%20on%202027-06-22\">東京 6/22</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=One%20way%20flights%20from%20FUK%20to%20TPE%20on%202027-06-10\">福岡 6/10</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=One%20way%20flights%20from%20OKA%20to%20TPE%20on%202027-02-25\">那霸 2/25</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=One%20way%20flights%20from%20CTS%20to%20TPE%20on%202027-04-19\">新千歲 4/19</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=One%20way%20flights%20from%20SDJ%20to%20TPE%20on%202027-03-17\">仙台 3/17</a>",
-  "華航官網低價頁（2026-11-14 讀取）：<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kumamoto\">熊本</a>、<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-hiroshima\">廣島</a>、<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kagoshima\">鹿兒島</a>；11/13 讀取：<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-nagoya\">名古屋</a>",
+  "Google Flights（2026-11-16 查詢）：<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20TYO%20on%202027-06-17%20through%202027-06-22\">東京 6/17–6/22</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20KIX%20on%202027-03-03%20through%202027-03-08\">關西 3/3–3/8</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20NGO%20on%202027-06-17%20through%202027-06-22\">名古屋 6/17–6/22</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20FUK%20on%202027-06-06%20through%202027-06-10\">福岡 6/6–6/10</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20OKA%20on%202027-02-20%20through%202027-02-25\">那霸 2/20–2/25</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20CTS%20on%202027-04-16%20through%202027-04-19\">新千歲 4/16–4/19</a>、<a href=\"https://www.google.com/travel/flights?hl=zh-TW&amp;curr=TWD&amp;gl=TW&amp;q=Flights%20from%20TPE%20to%20SDJ%20on%202027-03-13%20through%202027-03-17\">仙台 3/13–3/17</a>（新千歲被擋未完成）；回程單程沿用 11/14 查詢",
+  "華航官網低價頁（2026-11-16 讀取）：<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kumamoto\">熊本</a>、<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-kagoshima\">鹿兒島</a>、<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-hiroshima\">廣島</a>、<a href=\"https://flights.china-airlines.com/zh-tw/flights-from-taipei-to-sapporo\">札幌</a>",
   "班表：攜程時刻表 <a href=\"https://flights.ctrip.com/international/search/schedule/osa-tpe.html\">大阪→台北</a>、<a href=\"https://flights.ctrip.com/international/search/schedule/kmj-tpe.html\">熊本→台北</a>、<a href=\"https://flights.ctrip.com/international/search/schedule/hij-tpe.html\">廣島→台北</a>；Trip.com 航班動態 <a href=\"https://tw.trip.com/flights/status-ci119/\">CI119</a>；<a href=\"https://www.flypeach.com/application/files/6117/8943/9522/20260916_W26_20261025-20270327_int_EN.pdf\">樂桃 2026 冬季國際線班表</a>（皆為 11/13 查詢）",
   "<a href=\"https://www.cna.com.tw/business/chinese/447659\">中央社：長榮旅展（11/15 截止）</a>、<a href=\"https://news.tvbs.com.tw/life/4040292\">TVBS：旅展機票優惠</a>、<a href=\"https://www.mirrormedia.mg/story/20261108tour002\">鏡週刊：ITF 旅展航空優惠懶人包</a>、<a href=\"https://www.nownews.com/news/6889857\">NOWnews：旅展航空優惠</a>、<a href=\"https://www.mirrormedia.mg/external/setn_1936631\">三立：Trip.com 雙 11 星宇</a>",
   "<a href=\"https://tw.trip.com/guide/airline-deals/%E6%97%A5%E6%9C%AC%E5%BB%89%E8%88%AA.html\">Trip.com：日本廉航行李費</a>、<a href=\"https://www.ettoday.net/news/20260521/3169805.htm\">ETtoday：2027 年行事曆（人事總處 116 年辦公日曆）</a>"
@@ -619,23 +622,28 @@
    "label": "華航札幌 20,847（11/13 官網低價頁）"
   },
   {
-   "out": "2027-05-15",
-   "ret": "2027-05-18",
-   "label": "華航鹿兒島 13,090（11/15 官網低價頁）"
+   "out": "2027-11-03",
+   "ret": "2027-11-07",
+   "label": "華航熊本 13,168（11/16 官網低價頁）"
   },
   {
-   "out": "2027-11-04",
-   "ret": "2027-11-08",
-   "label": "華航熊本 13,161（11/15 官網低價頁）"
+   "out": "2027-05-22",
+   "ret": "2027-05-25",
+   "label": "華航鹿兒島 13,098（11/16 官網低價頁）"
   },
   {
-   "out": "2027-06-25",
-   "ret": "2027-06-29",
-   "label": "華航熊本 12,731（11/15 官網低價頁）"
+   "out": "2027-09-02",
+   "ret": "2027-09-07",
+   "label": "華航鹿兒島 13,976（11/16 官網低價頁）"
+  },
+  {
+   "out": "2027-05-19",
+   "ret": "2027-05-23",
+   "label": "華航札幌 20,857（11/16 官網低價頁）"
   }
  ],
  "notify": {
-  "promo": "長榮旅展今天 11/15 截止，華航到 11/21，星宇到 11/23；沒有新的台日促銷",
-  "method": "Google Flights 查 10 筆（第 10 筆仙台被擋，停止），另開 4 個官網低價頁、1 次 WebSearch"
+  "promo": "沒有新的台日促銷；華航旅展到 11/21、星宇到 11/23（85 折起）",
+  "method": "Google Flights 查 7 筆（第 7 筆北海道被擋，停止），另開 4 個華航官網低價頁、1 次 WebSearch"
  }
 }
