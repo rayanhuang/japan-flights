@@ -71,7 +71,7 @@
     t.onclick=function(){ setFilter('dest',r.dest); show('prices'); };
     g.appendChild(t);
   });
-  if(take) take.before(ov); else wrap.insertBefore(ov,wrap.querySelector('.card'));
+  if(take) take.after(ov); else wrap.insertBefore(ov,wrap.querySelector('.card'));
   // 最省假窗口捷徑
   var oneWins=$$('[data-tab="leave"] .win.one');
   if(oneWins.length){
