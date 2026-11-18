@@ -1,0 +1,55 @@
+# 每日機票資料 PR 自動合併（使用者本人 2026-11-18 同意）
+# 條件：PR 來自本 repo、標題以「更新日本機票監控」開頭、只動到下面 5 個每日資料檔。
+# 動到其他任何檔案（例如 tools/、assets/app.js、assets/style.css、這個 workflow）就不合併，留給使用者看。
+name: 自動合併每日資料 PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  pages: write
+
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  merge:
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.title, '更新日本機票監控')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+      PR: ${{ github.event.pull_request.number }}
+    steps:
+      - name: 檢查只動到每日資料檔
+        run: |
+          allowed="index.html assets/content.js data/report.json data/log.json data/returns.json"
+          files=$(gh api "repos/$REPO/pulls/$PR/files" --paginate --jq '.[].filename')
+          echo "變更的檔案："; echo "$files"
+          for f in $files; do
+            case " $allowed " in
+              *" $f "*) ;;
+              *) echo "::error::$f 不在每日資料檔清單內，不自動合併"; exit 1 ;;
+            esac
+          done
+      - name: 等待可合併並合併
+        run: |
+          for i in 1 2 3 4 5 6; do
+            state=$(gh api "repos/$REPO/pulls/$PR" --jq .mergeable_state)
+            echo "mergeable_state=$state"
+            [ "$state" = clean ] && break
+            sleep 10
+          done
+          if [ "$state" != clean ]; then
+            echo "::error::PR 不是 clean（$state），不自動合併"; exit 1
+          fi
+          gh api -X PUT "repos/$REPO/pulls/$PR/merge" -f merge_method=squash
+      - name: 觸發 GitHub Pages 重新部署
+        run: gh api -X POST "repos/$REPO/pages/builds" || echo "Pages 會在下次推送時更新"
