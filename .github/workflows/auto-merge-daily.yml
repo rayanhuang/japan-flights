@@ -41,15 +41,18 @@ jobs:
           done
       - name: 等待可合併並合併
         run: |
+          # 這個 workflow 自己執行中時，GitHub 會把 PR 標成 unstable，所以 unstable 也可以合併；
+          # 只有 dirty（衝突）、blocked（被保護規則擋）才不合併，unknown 代表 GitHub 還在計算，等一下再讀。
           for i in 1 2 3 4 5 6; do
             state=$(gh api "repos/$REPO/pulls/$PR" --jq .mergeable_state)
             echo "mergeable_state=$state"
-            [ "$state" = clean ] && break
+            case "$state" in clean|unstable|has_hooks|behind) break ;; esac
             sleep 10
           done
-          if [ "$state" != clean ]; then
-            echo "::error::PR 不是 clean（$state），不自動合併"; exit 1
-          fi
+          case "$state" in
+            clean|unstable|has_hooks|behind) ;;
+            *) echo "::error::PR 狀態是 $state（衝突或被擋），不自動合併"; exit 1 ;;
+          esac
           gh api -X PUT "repos/$REPO/pulls/$PR/merge" -f merge_method=squash
       - name: 觸發 GitHub Pages 重新部署
         run: gh api -X POST "repos/$REPO/pages/builds" || echo "Pages 會在下次推送時更新"
