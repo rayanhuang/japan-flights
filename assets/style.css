@@ -1,0 +1,144 @@
+  :root{
+    --bg:#f4f6fa; --card:#ffffff; --ink:#1c2533; --muted:#5f6b7a; --line:#e3e8ef;
+    --blue:#2f5fb3; --blue-soft:#e8effc; --red:#c62828; --red-soft:#fde8e6;
+    --green:#0f7a43; --green-soft:#e3f5ea; --amber:#a35d00; --amber-soft:#fff3dc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --bg:#11151c; --card:#1a202a; --ink:#e7ecf3; --muted:#9aa6b5; --line:#2b3340;
+      --blue:#8fb3ff; --blue-soft:#1f2b44; --red:#ff8a80; --red-soft:#3a1f1f;
+      --green:#7fd8a4; --green-soft:#17301f; --amber:#ffc66b; --amber-soft:#3a2c14; color-scheme:dark; }
+  }
+  :root[data-theme="dark"]{ --bg:#11151c; --card:#1a202a; --ink:#e7ecf3; --muted:#9aa6b5; --line:#2b3340;
+      --blue:#8fb3ff; --blue-soft:#1f2b44; --red:#ff8a80; --red-soft:#3a1f1f;
+      --green:#7fd8a4; --green-soft:#17301f; --amber:#ffc66b; --amber-soft:#3a2c14; color-scheme:dark; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.6;font-size:15px}
+  .wrap{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+  header{padding:8px 0 16px}
+  h1{font-size:26px;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:14px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .chip{background:var(--blue-soft);color:var(--blue);border-radius:999px;padding:3px 10px;font-size:13px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 14px;margin:14px 0}
+  h2{font-size:18px;margin:0 0 10px}
+  h3{font-size:16px;margin:16px 0 6px}
+  .take{border-left:4px solid var(--amber);background:var(--amber-soft);padding:12px 14px;border-radius:10px;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px;white-space:nowrap}
+  td.num{white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums}
+  .scroll{overflow-x:auto}
+  .tag{display:inline-block;border-radius:6px;padding:1px 7px;font-size:12px;font-weight:600;white-space:nowrap}
+  .t-fsc{background:var(--blue-soft);color:var(--blue)}
+  .t-lcc{background:var(--amber-soft);color:var(--amber)}
+  .t-other{background:var(--line);color:var(--muted)}
+  .t-best{background:var(--green-soft);color:var(--green)}
+  .t-warn{background:var(--red-soft);color:var(--red)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+  .win{border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+  .win .d{font-weight:700}
+  .win .l{font-size:13px;color:var(--muted)}
+  .win.one{border-color:var(--green);background:var(--green-soft)}
+  .small{font-size:13px;color:var(--muted)}
+  ul{margin:6px 0 4px;padding-left:20px}
+  a{color:var(--blue)}
+  footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
+
+  /* 手機（寬度 ≤ 700px）：表格每一列變成一張卡片，欄名取自 td 的 data-label */
+  @media (max-width: 700px){
+    .wrap{padding:14px 16px 40px}
+    h1{font-size:22px}
+    .card{padding:16px 14px 12px}
+    .take{font-weight:500}
+    .rt,.rt tbody,.rt tr,.rt td{display:block}
+    .rt tr.hd{display:none}
+    .rt tr{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 10px;background:var(--bg)}
+    .rt td{border:0;padding:3px 0 3px 4.6em;position:relative;white-space:normal}
+    .rt td::before{content:attr(data-label);position:absolute;left:0;top:5px;width:4.2em;color:var(--muted);font-size:12px;font-weight:600;line-height:1.5}
+    .rt td:not([data-label]){padding-left:0}
+    .rt td:not([data-label])::before{content:none}
+    /* 今日最便宜：第一行放目的地與含行李總價 */
+    .rt-best tr{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px}
+    .rt-best td{flex:1 0 100%}
+    .rt-best td.dest{order:-3;flex:1 1 auto;font-size:18px;padding-left:0}
+    .rt-best td.total{order:-2;flex:0 0 auto;font-size:18px;padding-left:0;color:var(--green);white-space:nowrap}
+    .rt-best td.dest::before,.rt-best td.total::before{content:none}
+    .rt-best td.air{order:-1;padding:0 0 6px}
+    /* 每日紀錄：日期一行，五個目的地排兩欄 */
+    .rt-log tr{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px}
+    .rt-log td{padding:0}
+    .rt-log td::before{position:static;display:block;width:auto}
+    .rt-log td.date{grid-column:1/-1}
+  }
+
+  /* ===== 互動版（2026-11-13 新增）：分頁、目的地卡、篩選、趨勢圖。內容仍放在原本的表格裡，腳本只負責整理呈現 ===== */
+  :root{ --tab-bg:rgba(244,246,250,.92); --hi:#fff6d6; --shadow:0 1px 2px rgba(20,40,80,.06),0 4px 14px rgba(20,40,80,.06); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --tab-bg:rgba(17,21,28,.92); --hi:#3a3214; --shadow:none; } }
+  :root[data-theme="dark"]{ --tab-bg:rgba(17,21,28,.92); --hi:#3a3214; --shadow:none; }
+  .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+  .tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--tab-bg);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+    display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:8px 0;margin:0 0 4px;border-bottom:1px solid var(--line)}
+  .tabs::-webkit-scrollbar{display:none}
+  .tabs button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;cursor:pointer}
+  .tabs button[aria-selected="true"]{background:var(--blue);border-color:var(--blue);color:var(--card);font-weight:700}
+  .tabs button:focus-visible,.fbar button:focus-visible,.dtile:focus-visible,.more:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .tabs .cnt{font-size:11px;opacity:.8;margin-left:4px}
+
+  /* 目的地總覽卡 */
+  .dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:4px}
+  .dtile{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:2px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+  .dtile:hover{transform:translateY(-2px);border-color:var(--blue)}
+  .dtile .n{font-size:16px;font-weight:700}
+  .dtile .p{font-size:22px;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums;line-height:1.2}
+  .dtile .p.ref{color:var(--muted);font-size:17px}
+  .dtile .m{font-size:12px;color:var(--muted);line-height:1.45}
+  .dtile .row{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+  .dtile.top{border-color:var(--green);background:var(--green-soft)}
+  .dtile .chg{font-size:12px;font-weight:700}
+  .up{color:var(--red)} .down{color:var(--green)} .flat{color:var(--muted)}
+  .sec-t{font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.04em;margin:14px 0 6px}
+
+  /* 篩選列 */
+  .fbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 12px}
+  .fbar .lbl{font-size:12px;color:var(--muted);font-weight:700;margin-right:2px}
+  .fbar button{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:4px 11px;font:inherit;font-size:13px;cursor:pointer}
+  .fbar button[aria-pressed="true"]{background:var(--blue-soft);border-color:var(--blue);color:var(--blue);font-weight:700}
+  .fbar .sp{flex-basis:100%;height:0}
+  .empty{color:var(--muted);font-size:14px;padding:8px 0}
+
+  /* 價格表在所有寬度都以卡片呈現，詳細欄位收合 */
+  .rt.cards,.rt.cards tbody,.rt.cards tr,.rt.cards td{display:block}
+  .rt.cards tbody{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+  .rt.cards tr.hd{display:none}
+  .rt.cards tr{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:0;background:var(--bg)}
+  .rt.cards tr.flash{background:var(--hi)}
+  .rt.cards td{flex:1 0 100%;border:0;padding:3px 0 3px 4.6em;position:relative;white-space:normal}
+  .rt.cards td::before{content:attr(data-label);position:absolute;left:0;top:5px;width:4.2em;color:var(--muted);font-size:12px;font-weight:600;line-height:1.5}
+  .rt.cards td.dest{order:-3;flex:1 1 auto;font-size:18px;padding-left:0}
+  .rt.cards td.total{order:-2;flex:0 0 auto;font-size:18px;padding-left:0;color:var(--green);white-space:nowrap}
+  .rt.cards td.dest::before,.rt.cards td.total::before{content:none}
+  .rt.cards td.air{order:-1;padding:0 0 6px;padding-left:0}
+  .rt.cards td.air::before{content:none}
+  .rt.cards td.x{display:none}
+  .rt.cards tr.open td.x{display:block}
+  .rt.cards td.tg{padding:6px 0 0;order:10}
+  .rt.cards td.tg::before{content:none}
+  .more{border:0;background:none;color:var(--blue);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:2px 0}
+  .rt.cards tr[hidden]{display:none}
+
+  /* 促銷：已結束的列可隱藏 */
+  .rt-promo tr.ended{opacity:.55}
+
+  /* 趨勢圖 */
+  .trend{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .tcard{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);min-width:0}
+  .tcard .h{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+  .tcard .h b{font-size:15px}
+  .tcard .v{font-weight:800;font-variant-numeric:tabular-nums}
+  .tcard svg{display:block;width:100%;height:64px;margin-top:6px}
+  .tcard .ax{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+  details.fold{margin-top:10px}
+  details.fold>summary{cursor:pointer;color:var(--blue);font-weight:600;font-size:14px;padding:4px 0}
+  @media (prefers-reduced-motion: reduce){.dtile{transition:none}.dtile:hover{transform:none}}
+  @media (max-width:700px){ .rt.cards tbody{grid-template-columns:1fr} }
