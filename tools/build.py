@@ -172,6 +172,7 @@ def compute_alerts(rep, log, today):
         top = dest['_ok'][0]
         v = top['_total']
         reasons = []
+        prev = None
         hist = [(e['date'], e['cells'].get(dest['name'], {}).get('v')) for e in log
                 if NEW_RULES_FROM <= e['date'] < ts]
         hist = [(d, x) for d, x in hist if x]
@@ -182,10 +183,12 @@ def compute_alerts(rep, log, today):
                 reasons.append(f'比前次便宜 {round((prev - v) / prev * 100)}%')
             lo30 = (today - D.timedelta(30)).isoformat()
             m30 = [x for d, x in hist if d >= lo30]
-            if m30 and v < min(m30):
+            # 2026-11-24 使用者要求：30 天新低要比前低便宜 3% 以上或 NT$500 以上才算（避免便宜幾十元也發警報）
+            if m30 and min(m30) - v >= max(500, min(m30) * 0.03):
                 reasons.append(f'創 30 天新低（前低 {fmt(min(m30))}）')
         for r in dest['_ok']:
-            if (r.get('gfLow') or 0) >= 2000:
+            # 2026-11-24 使用者要求：Google 判定偏低時，價格也要比前一次紀錄低才發警報（持平或上漲不發）
+            if (r.get('gfLow') or 0) >= 2000 and (prev is None or r['_total'] < prev):
                 reasons.append(f'Google 判定偏低，比平常便宜 ${fmt(r["gfLow"])}' + ('' if r is top else f'（{short(r["air"])}）'))
                 r['_alert'] = True
         if reasons:
