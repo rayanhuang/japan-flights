@@ -358,5 +358,35 @@
   "src": "Google 單程",
   "checked": "2026-11-21",
   "note": "不符合"
+ },
+ {
+  "route": "NGO-TPE",
+  "date": "2027-06-22",
+  "air": "樂桃",
+  "deps": [
+   "22:45"
+  ],
+  "src": "Google 單程",
+  "checked": "2026-11-26"
+ },
+ {
+  "route": "KMJ-TPE",
+  "date": "2027-05-25",
+  "air": "星宇航空",
+  "deps": [
+   "11:55"
+  ],
+  "src": "Google 單程（不符 12:00）",
+  "checked": "2026-11-26"
+ },
+ {
+  "route": "KMJ-TPE",
+  "date": "2027-05-25",
+  "air": "中華航空",
+  "deps": [
+   "18:40"
+  ],
+  "src": "Google 單程",
+  "checked": "2026-11-26"
  }
 ]
